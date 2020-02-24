@@ -1,0 +1,88 @@
+" General options set {
+" vim: set sw=4 ts=4 sts=4 et tw=78 foldmarker={,} foldlevel=0 foldmethod=marker spell:
+"
+"
+" }
+
+" ENVIRONMENT {
+
+	" Basics {
+		set nocompatible	" Must be first line
+	" }
+
+" }
+
+" GENERAL {
+
+" Leader and Localleader mapping
+let mapleader = ","
+let maplocalleader = ";"
+
+set clipboard=unnamedplus
+" }
+
+" VIM UI {
+set number
+set relativenumber
+set numberwidth=4
+
+syntax on
+colorscheme gruvbox
+
+set cursorline
+
+set list listchars=tab:→\ ,trail:·,nbsp:◦,extends:»,precedes:«,eol:↲
+set copyindent
+set noexpandtab
+set preserveindent
+set softtabstop=0
+set shiftwidth=4
+set tabstop=4
+" }
+
+" MAPPING {
+inoremap <c-u> <esc>viwU<esc>i
+inoremap jk <esc>
+inoremap <esc> <nop>
+nnoremap - ddp
+nnoremap + ddkkp
+nnoremap <c-u> viwU<esc>
+nnoremap <leader>ev :vsplit $MYVIMRC<cr>
+nnoremap <leader>sv :source $MYVIMRC<cr>
+nnoremap <leader>" viw<esc>a"<esc>bi"<esc>lel
+nnoremap <leader>' viw<esc>a'<esc>bi'<esc>lel
+nnoremap <leader>h <c-w>h
+nnoremap <leader>j <c-w>j
+nnoremap <leader>k <c-w>k
+nnoremap <leader>l <c-w>l
+nnoremap H 0
+nnoremap L $
+nnoremap J G
+nnoremap K gg
+vnoremap <leader>" <esc>a"<esc>`<i"<esc>e 
+vnoremap <leader>' <esc>a'<esc>`<i'<esc>e
+" }
+
+" Abbreviations
+iabbrev @@ ferreira.alex.raphael@gmail.com
+
+" Vimscript file settings ----------------- {{{
+augroup filetype_vim
+	autocmd!
+	autocmd FileType vim setlocal foldmethod=marker
+augroup END
+" }}}
+
+" VIM PLUGINS {
+
+call plug#begin('/home/alphaxi/wrk/dot/vim/.vim/plugged')
+
+" Plugin for beancount files integration
+Plug 'nathangrigg/vim-beancount'
+
+" Plugin for tab indentation and space alignment
+Plug 'vim-scripts/Smart-Tabs'
+
+call plug#end()
+
+" }

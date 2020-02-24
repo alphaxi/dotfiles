@@ -1,0 +1,12 @@
+#! /bin/sh
+
+# This script sets up all the font related settings
+
+# Font installation and configuration for Notion.so app
+pacman -S ttf-liberation noto-fonts noto-fonts-emoji
+cp -v ./75-noto-color-emoji.conf /etc/fonts/conf.avail
+ln -sfv /etc/fonts/conf.avail/75-noto-color-emoji.conf /etc/fonts/conf.d/
+
+
+# Update of the font cache
+fc-cache -f -v

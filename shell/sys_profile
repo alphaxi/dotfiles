@@ -1,0 +1,77 @@
+# /etc/profile
+
+# Written for personal use
+# by Alex Ferreira <alphaxi@mail.ex>
+# adapted from arch default and Beyond Linux From Scratch
+
+# System wide environment variables and startup programs.
+
+# System wide aliases and functions should go in /etc/bashrc.
+# Personal environment variables and startup programs should go into 
+# ~/.bash_profile. Personal aliases and functions should go into ~/.bashrc.
+
+# Functions to help manage paths. Second argument is the name of the
+# path variable to be modified (default: PATH)
+
+pathremove() {
+	local IFS=':'
+	local NEWPATH
+	local DIR
+	local PATHVARIABLE=${2:-PATH}
+	for DIR in ${!PATHVARIABLE} ; do
+		if [ "$DIR" != "$1" ] ; then
+			NEWPATH=${NEWPATH:+$NEWPATH:}$DIR
+		fi
+	done
+	export $PATHVARIABLE="$NEWPATH"
+}
+
+pathprepend () {
+	pathremove $1 $2
+	local PATHVARIABLE=${2:-PATH}
+	export $PATHVARIABLE="$1${!PATHVARIABLE:+:${!PATHVARIABLE}}"
+}
+
+pathappend () {
+	pathremove $1 $2
+	local PATHVARIABLE=${2:-PATH}
+	export $PATHVARIABLE="${!PATHVARIABLE:+${!PATHVARIABLE}:}$1"
+}
+
+export -f pathremove pathprepend pathappend
+
+# Set the initial path
+export PATH=/bin:/usr/bin:/usr/local/bin:/usr/local/sbin
+
+if [ $EUID -eq 0 ] ; then
+	pathappend /sbin:/usr/sbin
+	unset HISTFILE
+fi
+
+# Setup some environment variables
+export HISTSIZE=1000
+export HISTIGNORE="&:[bf]g:exit"
+
+# Set some defaults for graphical systems
+export XDG_DATA_DIRS=${XDG_DATA_DIRS:-/usr/share/}
+export XDG_CONFIG_DIRS=${XDG_CONFIG_DIRS:-/etc/xdg/}
+export XDG_RUNTIME_DIR=${XDG_RUNTIME_DIR:-/tmp/xdg-$USER}
+
+# Load profiles from /etc/profile.d
+if test -d /etc/profile.d/; then
+	for profile in /etc/profile.d/*.sh; do
+		test -r "$profile" && . "$profile"
+	done
+	unset profile
+fi
+
+# Source global bash config
+if test "$PS1" && test "$BASH" && test -z ${POSIXLY_CORRECT+x} && test -r /etc/bash.bashrc; then
+	. /etc/bash.bashrc
+fi
+
+# Termcap is outdated, old, and crusty, kill it.
+unset TERMCAP
+
+# Man is much better than us at figuring this out
+unset MANPATH

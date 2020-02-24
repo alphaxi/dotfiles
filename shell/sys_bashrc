@@ -1,0 +1,10 @@
+# System wide aliases and functions.
+
+# If not running interactively, don't do anything
+[ -Z "$PS1" ] && return
+
+# Provides colored /bin/ls and /bin/grep commands.
+# Used in conjunction with code in /etc/profile.
+
+alias ls='ls --color=auto'
+alias grep='grep --color=auto'
