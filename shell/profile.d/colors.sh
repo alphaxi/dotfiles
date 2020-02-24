@@ -25,3 +25,5 @@ export LESS_TERMCAP_ZN=$(tput ssubm)                                # Enter subs
 export LESS_TERMCAP_ZV=$(tput rsubm)                                # End subscript mode
 export LESS_TERMCAP_ZO=$(tput ssupm)                                # Enter superscript mode
 export LESS_TERMCAP_ZW=$(tput rsupm)                                # End superscript mode
+export LESS_TERMCAP_ZH=$(tput sitm)                                 # Enter italic mode
+export LESS_TERMCAP_ZR=$(tput ritm)                                 # End italic mode

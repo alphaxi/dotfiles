@@ -24,6 +24,7 @@ export EDITOR="/usr/bin/vim"
 export DOTFILES="$HOME/wrk/dot"
 export GEM_HOME="$HOME/.gem"
 export PATH="$PATH:$(ruby -e 'print Gem.user_dir')/bin:/home/alphaxi/.gem/ruby/2.6.0/bin"
+export MANPAGER='less -s -M +Gg'
 
 for i in $DOTFILES/shell/profile.d/*.sh ; do
 	[[ -r $i ]] && . $i
