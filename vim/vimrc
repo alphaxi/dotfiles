@@ -27,7 +27,10 @@ set relativenumber
 set numberwidth=4
 
 syntax on
+let g:gruvbox_italic=1
+let g:gruvbox_contrast_dark='hard'
 colorscheme gruvbox
+set background=dark
 
 set cursorline
 
@@ -77,12 +80,17 @@ augroup END
 
 call plug#begin('/home/alphaxi/wrk/dot/vim/.vim/plugged')
 
+" Plugin for colorscheme
+Plug 'morhetz/gruvbox'
+
 " Plugin for beancount files integration
 Plug 'nathangrigg/vim-beancount'
 
 " Plugin for tab indentation and space alignment
 Plug 'vim-scripts/Smart-Tabs'
 
+" Plugin for LaTeX writing
+Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 call plug#end()
 
 " }

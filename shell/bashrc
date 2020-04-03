@@ -7,6 +7,9 @@
 # Source global definitions
 [[ -f /etc/bashrc ]] && . /etc/bashrc
 
+# Source color profile for vim
+source "$HOME/.vim/plugged/gruvbox/gruvbox_256palette.sh"
+
 # Bash Settings
 
 	#set -o nounset     # These two options are useful for debugging
@@ -17,7 +20,7 @@ set -o noclobber
 set -o ignoreeof
 shopt -s autocd
 
-PS1='[\u@\h \W]\$ '
+#PS1='[\u@\h \W]\$ '
 
 # Variables declaration
 export EDITOR="/usr/bin/vim"
@@ -26,6 +29,8 @@ export GEM_HOME="$HOME/.gem"
 export PATH="$PATH:$(ruby -e 'print Gem.user_dir')/bin:/home/alphaxi/.gem/ruby/2.6.0/bin"
 export MANPAGER='less -s -M +Gg'
 
-for i in $DOTFILES/shell/profile.d/*.sh ; do
+export local_username=alphaxi
+
+for i in $DOTFILES/shell/profile.d/*.*sh ; do
 	[[ -r $i ]] && . $i
 done

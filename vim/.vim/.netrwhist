@@ -1,4 +1,12 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhistcnt =2
-let g:netrw_dirhist_2='/home/alphaxi/wrk/dot/shell/profile.d'
-let g:netrw_dirhist_1='/usr/lib/opera/resources'
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/home/alphaxi/wrk/dot/shell/profile.d'
+let g:netrw_dirhist_2='/home/alphaxi/wrk/dot/shell'
+let g:netrw_dirhist_1='/home/alphaxi/wrk/dot/shell/profile.d'
+let g:netrw_dirhist_0='/home/alphaxi/wrk/dot/shell'
+let g:netrw_dirhist_9='/home/alphaxi/wrk/dot'
+let g:netrw_dirhist_8='/home/alphaxi/wrk/dot/config/sxhkd'
+let g:netrw_dirhist_7='/home/alphaxi/wrk/dot/config'
+let g:netrw_dirhist_6='/home/alphaxi/wrk/dot'
+let g:netrw_dirhist_5='/home/alphaxi/wrk/dot/shell/profile.d'
+let g:netrw_dirhist_4='/home/alphaxi/wrk/dot/shell'

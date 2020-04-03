@@ -1,0 +1,25 @@
+# wm-independant HotKeys
+#---
+
+# Terminal emulator
+super + Return
+	urxvt
+
+# Program launcher
+super + space
+	rofi -show combi
+
+# Reload HotKeys config
+super + Escape
+	pkill -USR1 -x sxhkd
+
+# BSPWM HotKeys
+#---
+
+# quit/restart bspwm
+super + alt + {q,r}
+	bspc {quit,wm -r}
+
+# close/kill program
+super + {_,shift + }w
+	bspc node -{c,k}
