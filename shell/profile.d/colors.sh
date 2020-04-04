@@ -8,7 +8,7 @@ if [ -f "$HOME/.dircolors" ] ; then
 fi
 
 alias ls='ls --color=auto'
-alias grep='grep --colors=auto'
+alias grep='grep --color=auto'
 
 
 # less Wrapper function for colors in man pages
