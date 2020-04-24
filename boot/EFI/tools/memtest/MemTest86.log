@@ -1,0 +1,1015 @@
+2017-08-04 00:06:50 - Attempting to retrieve the root directory of the data partition.
+2017-08-04 00:06:50 - Found 1 handles that supported SimpleFileSystem
+2017-08-04 00:06:50 - Checking handle 0 (982F0918)
+2017-08-04 00:06:50 - Handle is own partition
+2017-08-04 00:06:50 - Could not find Simple Network protocol.
+2017-08-04 00:06:50 - =============================================
+2017-08-04 00:06:50 - MemTest86 V7.5 Free Build: 1001 (64-bit)
+2017-08-04 00:06:50 - =============================================
+2017-08-04 00:06:50 - SMBIOS BIOS INFO Vendor: "American Megatrends Inc.", Version: "X411UA.300", Release Date: "08/04/2017"
+2017-08-04 00:06:50 - SMBIOS SYSTEM INFO Manufacturer: "ASUSTeK COMPUTER INC.", Product: "X411UA", Version: "1.0       ", S/N: "HBN0GR04X66947C", SKU: "", Family: ""
+2017-08-04 00:06:50 - SMBIOS: Found SMBIOS BaseboardInformation (pbLinAddr=0x9B1FD0A0, FormattedLen=15, iTotalLen=101)
+2017-08-04 00:06:50 - SMBIOS BASEBOARD INFO Manufacturer: "ASUSTeK COMPUTER INC.", Product: "X411UA", Version: "1.0       ", S/N: "NA", AssetTag: "ATN12345678901234567", LocationInChassis: "MIDDLE              "
+2017-08-04 00:06:50 - EFI Specifications: 2.60
+2017-08-04 00:06:50 - Console Control protocol workaround enabled
+2017-08-04 00:06:50 - Number of console modes: 4
+2017-08-04 00:06:50 - Mode 0: 80 x 25
+2017-08-04 00:06:50 - Mode 1: 80 x 50
+2017-08-04 00:06:51 - Mode 2: 100 x 31
+2017-08-04 00:06:51 - Mode 3: 240 x 56
+2017-08-04 00:06:51 - Initializing localization strings
+2017-08-04 00:06:51 - Language en-US is supported
+2017-08-04 00:06:51 - GetGlyph failed for character 0x00C0 (Warning Unknown Glyph)
+2017-08-04 00:06:51 - Language fr-FR is not supported
+2017-08-04 00:06:51 - GetGlyph failed for character 0x00C0 (Warning Unknown Glyph)
+2017-08-04 00:06:51 - Language it-IT is not supported
+2017-08-04 00:06:51 - GetGlyph failed for character 0x00C1 (Warning Unknown Glyph)
+2017-08-04 00:06:51 - Language es-AR is not supported
+2017-08-04 00:06:51 - GetGlyph failed for character 0x00C0 (Warning Unknown Glyph)
+2017-08-04 00:06:51 - Language pt-BR is not supported
+2017-08-04 00:06:51 - GetGlyph failed for character 0x00C0 (Warning Unknown Glyph)
+2017-08-04 00:06:51 - Language ca-ES is not supported
+2017-08-04 00:06:51 - GetGlyph failed for character 0x00C4 (Warning Unknown Glyph)
+2017-08-04 00:06:51 - Language de-DE is not supported
+2017-08-04 00:06:51 - GetGlyph failed for character 0x00C1 (Warning Unknown Glyph)
+2017-08-04 00:06:51 - Language cs-CZ is not supported
+2017-08-04 00:06:51 - GetGlyph failed for character 0x0410 (Warning Unknown Glyph)
+2017-08-04 00:06:51 - Language ru-RU is not supported
+2017-08-04 00:06:51 - GetGlyph failed for character 0x3041 (Warning Unknown Glyph)
+2017-08-04 00:06:51 - Language ja-JP is not supported
+2017-08-04 00:06:51 - GetGlyph failed for character 0x4E0F (Warning Unknown Glyph)
+2017-08-04 00:06:51 - Language zh-CN is not supported
+2017-08-04 00:06:51 - GetGlyph failed for character 0xF944 (Warning Unknown Glyph)
+2017-08-04 00:06:51 - Language zh-HK is not supported
+2017-08-04 00:06:51 - Font does not support all languages. Installing unicode font...
+2017-08-04 00:06:51 - InitFont - Font header version: 1.1
+2017-08-04 00:06:51 - InitFont - Number of narrow glyphs: 6969
+2017-08-04 00:06:51 - InitFont - Number of wide glyphs: 50117
+2017-08-04 00:06:51 - Language en-US is supported
+2017-08-04 00:06:51 - Language fr-FR is supported
+2017-08-04 00:06:51 - Language it-IT is supported
+2017-08-04 00:06:51 - Language es-AR is supported
+2017-08-04 00:06:51 - Language pt-BR is supported
+2017-08-04 00:06:51 - Language ca-ES is supported
+2017-08-04 00:06:51 - Language de-DE is supported
+2017-08-04 00:06:51 - Language cs-CZ is supported
+2017-08-04 00:06:51 - Language ru-RU is supported
+2017-08-04 00:06:51 - Language ja-JP is supported
+2017-08-04 00:06:51 - Language zh-CN is supported
+2017-08-04 00:06:51 - Language zh-HK is supported
+2017-08-04 00:06:51 - Initializing screen for graphics
+2017-08-04 00:06:51 - Getting CPUID
+2017-08-04 00:06:51 - Getting cache size
+2017-08-04 00:06:51 - get_cache_size - Vendor ID: GenuineIntel Brand ID: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+2017-08-04 00:06:51 - L1 data cache: 32, 2, 8 [0x1C004121]
+2017-08-04 00:06:51 - L0 cache: 0 KB (1)
+2017-08-04 00:06:51 - L1 instruction cache size: 4 x 32KB
+2017-08-04 00:06:51 - L1 data cache size: 4 x 32KB
+2017-08-04 00:06:51 - L2 cache size: 4 x 256KB
+2017-08-04 00:06:51 - L3 cache size: 6144KB
+2017-08-04 00:06:51 - Measuring CPU/cache/mem speed
+2017-08-04 00:06:51 - hpet_init - Found RSDP. Version: 2 
+2017-08-04 00:06:51 - hpet_init - Found XSDT. Entry Count: 23
+2017-08-04 00:06:52 - hpet_init - Found ACPI table: FACP  Version: 6
+2017-08-04 00:06:52 - hpet_init - Found ACPI table: APIC  Version: 3
+2017-08-04 00:06:52 - hpet_init - Found ACPI table: FPDT  Version: 1
+2017-08-04 00:06:52 - hpet_init - Found ACPI table: FIDT  Version: 1
+2017-08-04 00:06:52 - hpet_init - Found ACPI table: ECDT  Version: 1
+2017-08-04 00:06:52 - hpet_init - Found ACPI table: MCFG  Version: 1
+2017-08-04 00:06:52 - hpet_init - Found ACPI table: SSDT  Version: 1
+2017-08-04 00:06:52 - hpet_init - Found ACPI table: SSDT  Version: 2
+2017-08-04 00:06:52 - hpet_init - Found ACPI table: MSDM  Version: 3
+2017-08-04 00:06:52 - hpet_init - Found ACPI table: SSDT  Version: 2
+2017-08-04 00:06:52 - hpet_init - Found ACPI table: HPET  Version: 1
+2017-08-04 00:06:52 - hpet_init - HPET base address: 0xFED00000
+2017-08-04 00:06:52 - hpet_init - HPET gen cap: 0x27BC86B8086A701 (Period: 41666667fs)
+2017-08-04 00:06:52 - hpet_init - HPET gen cfg: 0x1
+2017-08-04 00:06:52 - hpet_init - main counter value (1): 396101965
+2017-08-04 00:06:52 - hpet_init - main counter value (2): 396449724
+2017-08-04 00:06:52 - cpuspeed_hpet - rdtsc instruction supported: 1
+2017-08-04 00:06:52 - cpuspeed_hpet - HPET counter start: 397052100, HPET counter end: 398252099
+2017-08-04 00:06:52 - cpuspeed_hpet - start TSC: 31679378049, end TSC: 31770319528 (difference: 90941479)
+2017-08-04 00:06:52 - cpu_cache_speed - (Attempt 1) clock cycle (ms): 1818829
+2017-08-04 00:06:52 - cpuspeed_hpet - rdtsc instruction supported: 1
+2017-08-04 00:06:52 - cpuspeed_hpet - HPET counter start: 399454629, HPET counter end: 400654628
+2017-08-04 00:06:52 - cpuspeed_hpet - start TSC: 31882769945, end TSC: 31973709658 (difference: 90939713)
+2017-08-04 00:06:52 - cpu_cache_speed - (Attempt 2) clock cycle (ms): 1818794
+2017-08-04 00:06:52 - cpuspeed_hpet - rdtsc instruction supported: 1
+2017-08-04 00:06:52 - cpuspeed_hpet - HPET counter start: 401579273, HPET counter end: 402779272
+2017-08-04 00:06:52 - cpuspeed_hpet - start TSC: 32065083565, end TSC: 32156023167 (difference: 90939602)
+2017-08-04 00:06:52 - cpu_cache_speed - (Attempt 3) clock cycle (ms): 1818792
+2017-08-04 00:06:52 - cpu_cache_speed - Using average of last 3 samples (1818792, 1818794, 1818829)
+2017-08-04 00:06:52 - cpu_cache_speed - CPU speed: 1818.8MHz
+2017-08-04 00:06:52 - cpu_cache_speed - measuring L1 cache speed at 0x97BF7000 (32 KB)
+2017-08-04 00:06:52 - cpu_cache_speed - L1 cache speed: 96141 MB/s
+2017-08-04 00:06:52 - cpu_cache_speed - measuring L2 cache speed at 0x97B8B000 (256 KB)
+2017-08-04 00:06:52 - cpu_cache_speed - L2 cache speed: 40382 MB/s
+2017-08-04 00:06:52 - cpu_cache_speed - measuring L3 cache speed at 0x975CB000 (6144 KB)
+2017-08-04 00:06:52 - cpu_cache_speed - L3 cache speed: 21987 MB/s
+2017-08-04 00:06:52 - get_mem_speed - measuring mem speed at 0x8CD97000 (51712 KB)
+2017-08-04 00:06:53 - get_mem_speed - mem speed: 8111 MB/s
+2017-08-04 00:06:53 - cpu_cache_speed - Memory latency: 36.307 ns
+2017-08-04 00:06:53 - Retrieving CPU MSR data
+2017-08-04 00:06:53 - GetIntelArchitectureSpecificMSRInfo - CPU Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz: 6.142
+2017-08-04 00:06:53 - GetIntelArchitectureSpecificMSRInfo - Nehalem et al detected
+2017-08-04 00:06:53 - GetKabylakeFamilyMSRInfo_Static - MSR[0xCE] = 0004043DF1011200
+2017-08-04 00:06:53 - GetKabylakeFamilyMSRInfo_Static - MSR[0x1A2] = 0000000005640000
+2017-08-04 00:06:53 - GetKabylakeFamilyMSRInfo_Static - MSR[0x1AD] = 0000000022222222
+2017-08-04 00:06:53 - IsIntelTurboSupported - CPUID[0x6][EAX] = 000027F7
+2017-08-04 00:06:53 - DisableTurboMode - MSR[1A0] = 0000000000850089
+2017-08-04 00:06:53 - DisableTurboMode - New MSR[1A0] = 0000004000850089
+2017-08-04 00:06:53 - GetIntelArchitectureSpecificMSRInfo - Turbo disabled
+2017-08-04 00:06:53 - IsIntel_PerfMon_Supported - CPUID[0xA][EDX] = 00000603
+2017-08-04 00:06:53 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - CPUID[0xA][EDX] = 00000603
+2017-08-04 00:06:53 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x38F] = 000000000000000F
+2017-08-04 00:06:53 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x38D] = 0000000000000000
+2017-08-04 00:06:53 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x199] = 0000000000000F00
+2017-08-04 00:06:53 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x198] = 0000158700000F00
+2017-08-04 00:06:53 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - high perf counter freq = 1818805000
+2017-08-04 00:06:56 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - time in ns = 1320705932
+2017-08-04 00:06:56 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - FreqCore in KHz = 1512146, FreqRef in KHz = 1818804, Ratio = 83
+2017-08-04 00:07:00 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - time in ns = 1326450345
+2017-08-04 00:07:00 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - FreqCore in KHz = 1512146, FreqRef in KHz = 1818804, Ratio = 83
+2017-08-04 00:07:00 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - CPUID[0xA][EDX] = 00000603
+2017-08-04 00:07:00 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x38F] = 000000000000000F
+2017-08-04 00:07:00 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x38D] = 0000000000000000
+2017-08-04 00:07:00 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x199] = 0000000000000F00
+2017-08-04 00:07:00 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x198] = 0000158200000F00
+2017-08-04 00:07:00 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - high perf counter freq = 1818805000
+2017-08-04 00:07:02 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - time in ns = 1320026740
+2017-08-04 00:07:02 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - FreqCore in KHz = 1512146, FreqRef in KHz = 1818804, Ratio = 83
+2017-08-04 00:07:06 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - time in ns = 1365833922
+2017-08-04 00:07:07 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - FreqCore in KHz = 1512146, FreqRef in KHz = 1818804, Ratio = 83
+2017-08-04 00:07:07 - GetIntelArchitectureSpecificMSRInfo - MaxRatio = 83
+2017-08-04 00:07:07 - GetIntelArchitectureSpecificMSRInfo - Mult = 1494
+2017-08-04 00:07:07 - GetIntelArchitectureSpecificMSRInfo - raw_freq_cpu = 1590432
+2017-08-04 00:07:07 - EnableTurboMode - MSR[1A0] = 0000004000850089
+2017-08-04 00:07:07 - EnableTurboMode - New MSR[1A0] = 0000000000850089
+2017-08-04 00:07:07 - EnableTurboMode - MSR[0x198] = 0000158700000F00 (Current multiplier: 15)
+2017-08-04 00:07:07 - EnableTurboMode - MSR[0x199] = 0000000000000F00 (Target multiplier: 15, Max1CTurbo: 34)
+2017-08-04 00:07:07 - EnableTurboMode - Setting MSR[0x199] to 0000000000002200
+2017-08-04 00:07:07 - EnableTurboMode - New MSR[0x199] = 0000000000002200 (Target multiplier: 34)
+2017-08-04 00:07:07 - GetIntelArchitectureSpecificMSRInfo - TargetRatio = 185
+2017-08-04 00:07:07 - IsIntel_PerfMon_Supported - CPUID[0xA][EDX] = 00000603
+2017-08-04 00:07:07 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - CPUID[0xA][EDX] = 00000603
+2017-08-04 00:07:07 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x38F] = 000000000000000F
+2017-08-04 00:07:07 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x38D] = 0000000000000000
+2017-08-04 00:07:07 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x199] = 0000000000002200
+2017-08-04 00:07:07 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x198] = 0000220500002200
+2017-08-04 00:07:07 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - high perf counter freq = 1818805000
+2020-04-13 09:58:37 - Attempting to retrieve the root directory of the data partition.
+2020-04-13 09:58:37 - Found 1 handles that supported SimpleFileSystem
+2020-04-13 09:58:38 - Checking handle 0 (982F0918)
+2020-04-13 09:58:38 - Handle is own partition
+2020-04-13 09:58:38 - Could not find Simple Network protocol.
+2020-04-13 09:58:38 - =============================================
+2020-04-13 09:58:38 - MemTest86 V7.5 Free Build: 1001 (64-bit)
+2020-04-13 09:58:38 - =============================================
+2020-04-13 09:58:38 - SMBIOS BIOS INFO Vendor: "American Megatrends Inc.", Version: "X411UA.300", Release Date: "08/04/2017"
+2020-04-13 09:58:38 - SMBIOS SYSTEM INFO Manufacturer: "ASUSTeK COMPUTER INC.", Product: "X411UA", Version: "1.0       ", S/N: "HBN0GR04X66947C", SKU: "", Family: ""
+2020-04-13 09:58:38 - SMBIOS: Found SMBIOS BaseboardInformation (pbLinAddr=0x9B1FD0A0, FormattedLen=15, iTotalLen=101)
+2020-04-13 09:58:38 - SMBIOS BASEBOARD INFO Manufacturer: "ASUSTeK COMPUTER INC.", Product: "X411UA", Version: "1.0       ", S/N: "NA", AssetTag: "ATN12345678901234567", LocationInChassis: "MIDDLE              "
+2020-04-13 09:58:38 - EFI Specifications: 2.60
+2020-04-13 09:58:38 - Console Control protocol workaround enabled
+2020-04-13 09:58:38 - Number of console modes: 4
+2020-04-13 09:58:38 - Mode 0: 80 x 25
+2020-04-13 09:58:38 - Mode 1: 80 x 50
+2020-04-13 09:58:38 - Mode 2: 100 x 31
+2020-04-13 09:58:38 - Mode 3: 240 x 56
+2020-04-13 09:58:38 - Initializing localization strings
+2020-04-13 09:58:38 - Language en-US is supported
+2020-04-13 09:58:38 - GetGlyph failed for character 0x00C0 (Warning Unknown Glyph)
+2020-04-13 09:58:38 - Language fr-FR is not supported
+2020-04-13 09:58:38 - GetGlyph failed for character 0x00C0 (Warning Unknown Glyph)
+2020-04-13 09:58:38 - Language it-IT is not supported
+2020-04-13 09:58:38 - GetGlyph failed for character 0x00C1 (Warning Unknown Glyph)
+2020-04-13 09:58:38 - Language es-AR is not supported
+2020-04-13 09:58:38 - GetGlyph failed for character 0x00C0 (Warning Unknown Glyph)
+2020-04-13 09:58:38 - Language pt-BR is not supported
+2020-04-13 09:58:38 - GetGlyph failed for character 0x00C0 (Warning Unknown Glyph)
+2020-04-13 09:58:38 - Language ca-ES is not supported
+2020-04-13 09:58:38 - GetGlyph failed for character 0x00C4 (Warning Unknown Glyph)
+2020-04-13 09:58:38 - Language de-DE is not supported
+2020-04-13 09:58:38 - GetGlyph failed for character 0x00C1 (Warning Unknown Glyph)
+2020-04-13 09:58:39 - Language cs-CZ is not supported
+2020-04-13 09:58:39 - GetGlyph failed for character 0x0410 (Warning Unknown Glyph)
+2020-04-13 09:58:39 - Language ru-RU is not supported
+2020-04-13 09:58:39 - GetGlyph failed for character 0x3041 (Warning Unknown Glyph)
+2020-04-13 09:58:39 - Language ja-JP is not supported
+2020-04-13 09:58:39 - GetGlyph failed for character 0x4E0F (Warning Unknown Glyph)
+2020-04-13 09:58:39 - Language zh-CN is not supported
+2020-04-13 09:58:39 - GetGlyph failed for character 0xF944 (Warning Unknown Glyph)
+2020-04-13 09:58:39 - Language zh-HK is not supported
+2020-04-13 09:58:39 - Font does not support all languages. Installing unicode font...
+2020-04-13 09:58:39 - InitFont - Font header version: 1.1
+2020-04-13 09:58:39 - InitFont - Number of narrow glyphs: 6969
+2020-04-13 09:58:39 - InitFont - Number of wide glyphs: 50117
+2020-04-13 09:58:40 - Language en-US is supported
+2020-04-13 09:58:40 - Language fr-FR is supported
+2020-04-13 09:58:40 - Language it-IT is supported
+2020-04-13 09:58:40 - Language es-AR is supported
+2020-04-13 09:58:40 - Language pt-BR is supported
+2020-04-13 09:58:40 - Language ca-ES is supported
+2020-04-13 09:58:40 - Language de-DE is supported
+2020-04-13 09:58:40 - Language cs-CZ is supported
+2020-04-13 09:58:40 - Language ru-RU is supported
+2020-04-13 09:58:40 - Language ja-JP is supported
+2020-04-13 09:58:40 - Language zh-CN is supported
+2020-04-13 09:58:40 - Language zh-HK is supported
+2020-04-13 09:58:40 - Initializing screen for graphics
+2020-04-13 09:58:40 - Getting CPUID
+2020-04-13 09:58:40 - Getting cache size
+2020-04-13 09:58:40 - get_cache_size - Vendor ID: GenuineIntel Brand ID: Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz
+2020-04-13 09:58:40 - L1 data cache: 32, 2, 8 [0x1C004121]
+2020-04-13 09:58:40 - L0 cache: 0 KB (1)
+2020-04-13 09:58:40 - L1 instruction cache size: 4 x 32KB
+2020-04-13 09:58:40 - L1 data cache size: 4 x 32KB
+2020-04-13 09:58:40 - L2 cache size: 4 x 256KB
+2020-04-13 09:58:40 - L3 cache size: 6144KB
+2020-04-13 09:58:40 - Measuring CPU/cache/mem speed
+2020-04-13 09:58:40 - hpet_init - Found RSDP. Version: 2 
+2020-04-13 09:58:40 - hpet_init - Found XSDT. Entry Count: 23
+2020-04-13 09:58:40 - hpet_init - Found ACPI table: FACP  Version: 6
+2020-04-13 09:58:40 - hpet_init - Found ACPI table: APIC  Version: 3
+2020-04-13 09:58:40 - hpet_init - Found ACPI table: FPDT  Version: 1
+2020-04-13 09:58:40 - hpet_init - Found ACPI table: FIDT  Version: 1
+2020-04-13 09:58:40 - hpet_init - Found ACPI table: ECDT  Version: 1
+2020-04-13 09:58:40 - hpet_init - Found ACPI table: MCFG  Version: 1
+2020-04-13 09:58:40 - hpet_init - Found ACPI table: SSDT  Version: 1
+2020-04-13 09:58:40 - hpet_init - Found ACPI table: SSDT  Version: 2
+2020-04-13 09:58:40 - hpet_init - Found ACPI table: MSDM  Version: 3
+2020-04-13 09:58:40 - hpet_init - Found ACPI table: SSDT  Version: 2
+2020-04-13 09:58:40 - hpet_init - Found ACPI table: HPET  Version: 1
+2020-04-13 09:58:40 - hpet_init - HPET base address: 0xFED00000
+2020-04-13 09:58:40 - hpet_init - HPET gen cap: 0x27BC86B8086A701 (Period: 41666667fs)
+2020-04-13 09:58:40 - hpet_init - HPET gen cfg: 0x1
+2020-04-13 09:58:40 - hpet_init - main counter value (1): 327316378
+2020-04-13 09:58:40 - hpet_init - main counter value (2): 327583238
+2020-04-13 09:58:40 - cpuspeed_hpet - rdtsc instruction supported: 1
+2020-04-13 09:58:41 - cpuspeed_hpet - HPET counter start: 328387550, HPET counter end: 329587549
+2020-04-13 09:58:41 - cpuspeed_hpet - start TSC: 26412740533, end TSC: 26503683474 (difference: 90942941)
+2020-04-13 09:58:41 - cpu_cache_speed - (Attempt 1) clock cycle (ms): 1818858
+2020-04-13 09:58:41 - cpuspeed_hpet - rdtsc instruction supported: 1
+2020-04-13 09:58:41 - cpuspeed_hpet - HPET counter start: 330860494, HPET counter end: 332060493
+2020-04-13 09:58:41 - cpuspeed_hpet - start TSC: 26621183298, end TSC: 26712120948 (difference: 90937650)
+2020-04-13 09:58:41 - cpu_cache_speed - (Attempt 2) clock cycle (ms): 1818753
+2020-04-13 09:58:41 - cpuspeed_hpet - rdtsc instruction supported: 1
+2020-04-13 09:58:41 - cpuspeed_hpet - HPET counter start: 333317160, HPET counter end: 334517159
+2020-04-13 09:58:41 - cpuspeed_hpet - start TSC: 26828884398, end TSC: 26919825658 (difference: 90941260)
+2020-04-13 09:58:41 - cpu_cache_speed - (Attempt 3) clock cycle (ms): 1818825
+2020-04-13 09:58:41 - cpu_cache_speed - Using average of last 3 samples (1818825, 1818753, 1818858)
+2020-04-13 09:58:41 - cpu_cache_speed - CPU speed: 1818.8MHz
+2020-04-13 09:58:41 - cpu_cache_speed - measuring L1 cache speed at 0x952B1000 (32 KB)
+2020-04-13 09:58:41 - cpu_cache_speed - L1 cache speed: 95943 MB/s
+2020-04-13 09:58:41 - cpu_cache_speed - measuring L2 cache speed at 0x95279000 (256 KB)
+2020-04-13 09:58:41 - cpu_cache_speed - L2 cache speed: 40601 MB/s
+2020-04-13 09:58:41 - cpu_cache_speed - measuring L3 cache speed at 0x94CB9000 (6144 KB)
+2020-04-13 09:58:41 - cpu_cache_speed - L3 cache speed: 22406 MB/s
+2020-04-13 09:58:41 - get_mem_speed - measuring mem speed at 0x8FB80000 (51712 KB)
+2020-04-13 09:58:41 - get_mem_speed - mem speed: 8169 MB/s
+2020-04-13 09:58:42 - cpu_cache_speed - Memory latency: 35.967 ns
+2020-04-13 09:58:42 - Retrieving CPU MSR data
+2020-04-13 09:58:42 - GetIntelArchitectureSpecificMSRInfo - CPU Intel(R) Core(TM) i5-8250U CPU @ 1.60GHz: 6.142
+2020-04-13 09:58:42 - GetIntelArchitectureSpecificMSRInfo - Nehalem et al detected
+2020-04-13 09:58:42 - GetKabylakeFamilyMSRInfo_Static - MSR[0xCE] = 0004043DF1011200
+2020-04-13 09:58:42 - GetKabylakeFamilyMSRInfo_Static - MSR[0x1A2] = 0000000005640000
+2020-04-13 09:58:42 - GetKabylakeFamilyMSRInfo_Static - MSR[0x1AD] = 0000000022222222
+2020-04-13 09:58:42 - IsIntelTurboSupported - CPUID[0x6][EAX] = 000027F7
+2020-04-13 09:58:42 - DisableTurboMode - MSR[1A0] = 0000000000850089
+2020-04-13 09:58:42 - DisableTurboMode - New MSR[1A0] = 0000004000850089
+2020-04-13 09:58:42 - GetIntelArchitectureSpecificMSRInfo - Turbo disabled
+2020-04-13 09:58:42 - IsIntel_PerfMon_Supported - CPUID[0xA][EDX] = 00000603
+2020-04-13 09:58:42 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - CPUID[0xA][EDX] = 00000603
+2020-04-13 09:58:42 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x38F] = 000000000000000F
+2020-04-13 09:58:42 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x38D] = 0000000000000000
+2020-04-13 09:58:42 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x199] = 0000000000000F00
+2020-04-13 09:58:42 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x198] = 000015B000000F00
+2020-04-13 09:58:42 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - high perf counter freq = 1818812000
+2020-04-13 09:58:45 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - time in ns = 1319987558
+2020-04-13 09:58:45 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - FreqCore in KHz = 1512152, FreqRef in KHz = 1818811, Ratio = 83
+2020-04-13 09:58:49 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - time in ns = 1320266023
+2020-04-13 09:58:49 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - FreqCore in KHz = 1512152, FreqRef in KHz = 1818811, Ratio = 83
+2020-04-13 09:58:49 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - CPUID[0xA][EDX] = 00000603
+2020-04-13 09:58:49 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x38F] = 000000000000000F
+2020-04-13 09:58:49 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x38D] = 0000000000000000
+2020-04-13 09:58:49 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x199] = 0000000000000F00
+2020-04-13 09:58:49 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x198] = 000015B000000F00
+2020-04-13 09:58:49 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - high perf counter freq = 1818812000
+2020-04-13 09:58:51 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - time in ns = 1320358502
+2020-04-13 09:58:51 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - FreqCore in KHz = 1512152, FreqRef in KHz = 1818811, Ratio = 83
+2020-04-13 09:58:55 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - time in ns = 1320915685
+2020-04-13 09:58:55 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - FreqCore in KHz = 1512152, FreqRef in KHz = 1818812, Ratio = 83
+2020-04-13 09:58:55 - GetIntelArchitectureSpecificMSRInfo - MaxRatio = 83
+2020-04-13 09:58:55 - GetIntelArchitectureSpecificMSRInfo - Mult = 1494
+2020-04-13 09:58:55 - GetIntelArchitectureSpecificMSRInfo - raw_freq_cpu = 1590448
+2020-04-13 09:58:55 - EnableTurboMode - MSR[1A0] = 0000004000850089
+2020-04-13 09:58:55 - EnableTurboMode - New MSR[1A0] = 0000000000850089
+2020-04-13 09:58:55 - EnableTurboMode - MSR[0x198] = 000015B000000F00 (Current multiplier: 15)
+2020-04-13 09:58:55 - EnableTurboMode - MSR[0x199] = 0000000000000F00 (Target multiplier: 15, Max1CTurbo: 34)
+2020-04-13 09:58:55 - EnableTurboMode - Setting MSR[0x199] to 0000000000002200
+2020-04-13 09:58:55 - EnableTurboMode - New MSR[0x199] = 0000000000002200 (Target multiplier: 34)
+2020-04-13 09:58:55 - GetIntelArchitectureSpecificMSRInfo - TargetRatio = 185
+2020-04-13 09:58:55 - IsIntel_PerfMon_Supported - CPUID[0xA][EDX] = 00000603
+2020-04-13 09:58:55 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - CPUID[0xA][EDX] = 00000603
+2020-04-13 09:58:55 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x38F] = 000000000000000F
+2020-04-13 09:58:55 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x38D] = 0000000000000000
+2020-04-13 09:58:55 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x199] = 0000000000002200
+2020-04-13 09:58:55 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - MSR[0x198] = 0000220300002200
+2020-04-13 09:58:55 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - high perf counter freq = 1818812000
+2020-04-13 09:58:56 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - time in ns = 581631722
+2020-04-13 09:58:56 - GetIntelCPUMaxSpeed_CPU_CLK_UNHALTED - FreqCore in KHz = 3427546, FreqRef in KHz = 1818811, Ratio = 188
+2020-04-13 09:58:56 - GetIntelArchitectureSpecificMSRInfo - MaxTurboRatio = 188
+2020-04-13 09:58:56 - GetIntelArchitectureSpecificMSRInfo - TurboMult = 3384
+2020-04-13 09:58:56 - GetIntelArchitectureSpecificMSRInfo - new TurboMult = 3400
+2020-04-13 09:58:56 - GetIntelArchitectureSpecificMSRInfo - CPUSpeedTurbo = 3435530
+2020-04-13 09:58:57 - GetIntelArchitectureSpecificMSRInfo - CPUSpeedTurboTheoreticalMax = 3435530
+2020-04-13 09:58:57 - GetIntelArchitectureSpecificMSRInfo - Freq: 1590448, 1574, 101045, Turbo: 3435530, 3400, 0 (3435530)
+2020-04-13 09:58:57 - Getting memory size
+2020-04-13 09:58:57 - 0x000000000000 - 0x000000057FFF (352KB) {Free Memory}
+2020-04-13 09:58:57 - 0x000000058000 - 0x000000058FFF (4KB) {Reserved Memory}
+2020-04-13 09:58:57 - 0x000000059000 - 0x00000009DFFF (276KB) {Free Memory}
+2020-04-13 09:58:57 - 0x00000009E000 - 0x00000009FFFF (8KB) {Reserved Memory}
+2020-04-13 09:58:57 - 0x000000100000 - 0x0000842BAFFF (2113MB) {Free Memory}
+2020-04-13 09:58:57 - 0x0000842BB000 - 0x0000842FAFFF (256KB) {Boot Services Data}
+2020-04-13 09:58:57 - 0x0000842FB000 - 0x000092DFFFFF (235MB) {Free Memory}
+2020-04-13 09:58:57 - 0x000092E00000 - 0x000092F39FFF (1256KB) {Loader Code}
+2020-04-13 09:58:57 - 0x000092F3A000 - 0x0000941F7FFF (18MB) {Boot Services Data}
+2020-04-13 09:58:57 - 0x0000941F8000 - 0x0000941F8FFF (4KB) {ACPI Non-volatile}
+2020-04-13 09:58:57 - 0x0000941F9000 - 0x0000941F9FFF (4KB) {Runtime Services Data}
+2020-04-13 09:58:57 - 0x0000941FA000 - 0x0000942AAFFF (708KB) {Boot Services Data}
+2020-04-13 09:58:57 - 0x0000942AB000 - 0x0000942B9FFF (60KB) {Free Memory}
+2020-04-13 09:58:57 - 0x0000942BA000 - 0x0000942BAFFF (4KB) {Loader Data}
+2020-04-13 09:58:57 - 0x0000942BB000 - 0x000099466FFF (81MB) {Boot Services Data}
+2020-04-13 09:58:57 - 0x000099467000 - 0x000099643FFF (1908KB) {Free Memory}
+2020-04-13 09:58:57 - 0x000099644000 - 0x000099AEFFFF (4MB) {Boot Services Code}
+2020-04-13 09:58:57 - 0x000099AF0000 - 0x00009A99CFFF (14MB) {Reserved Memory}
+2020-04-13 09:58:57 - 0x00009A99D000 - 0x00009A9E2FFF (280KB) {ACPI Tables}
+2020-04-13 09:58:57 - 0x00009A9E3000 - 0x00009ADFCFFF (4MB) {ACPI Non-volatile}
+2020-04-13 09:58:57 - 0x00009ADFD000 - 0x00009B2A2FFF (4MB) {Runtime Services Data}
+2020-04-13 09:58:57 - 0x00009B2A3000 - 0x00009B37EFFF (880KB) {Runtime Services Code}
+2020-04-13 09:58:57 - 0x00009B37F000 - 0x00009B3FEFFF (512KB) {Boot Services Data}
+2020-04-13 09:58:57 - 0x000100000000 - 0x00025EFFFFFF (5616MB) {Free Memory}
+2020-04-13 09:58:57 - 0x0000000A0000 - 0x0000000FFFFF (384KB) {Reserved Memory}
+2020-04-13 09:58:57 - 0x00009B3FF000 - 0x00009B3FFFFF (4KB) {Reserved Memory}
+2020-04-13 09:58:57 - 0x00009B400000 - 0x00009FFFFFFF (76MB) {Reserved Memory}
+2020-04-13 09:58:57 - 0x0000F0000000 - 0x0000F7FFFFFF (128MB) {OS Memory-mapped IO}
+2020-04-13 09:58:57 - 0x0000FE000000 - 0x0000FE010FFF (68KB) {OS Memory-mapped IO}
+2020-04-13 09:58:57 - 0x0000FEC00000 - 0x0000FEC00FFF (4KB) {OS Memory-mapped IO}
+2020-04-13 09:58:57 - 0x0000FED00000 - 0x0000FED00FFF (4KB) {OS Memory-mapped IO}
+2020-04-13 09:58:57 - 0x0000FEE00000 - 0x0000FEE00FFF (4KB) {OS Memory-mapped IO}
+2020-04-13 09:58:57 - 0x0000FF000000 - 0x0000FFFFFFFF (16MB) {OS Memory-mapped IO}
+2020-04-13 09:58:57 - 
+2020-04-13 09:58:57 - Available Memory: 0x1F1F49000 (7GB)
+2020-04-13 09:58:57 - Reserved Memory: 0x160CB000 (352MB)
+2020-04-13 09:58:57 - mem_size - Number of entries: 33
+2020-04-13 09:58:57 - mem_size - Max address: 0x25F000000
+2020-04-13 09:58:57 - mem_size - Total memory size (8473362432 bytes)
+2020-04-13 09:58:57 - Getting memory SPD info
+2020-04-13 09:58:57 - Attempting to enable any disabled SMBus controllers...
+2020-04-13 09:58:57 - Attempting to enable SMBUS:
+2020-04-13 09:58:57 - Searching PCI for SMBus Controller
+2020-04-13 09:58:57 -  Found SMBus device:  VID:8086 DID:9D23 Bus:00 Dev:1F Fun:04 IO Add:F040 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Sunrise Point-LP]
+2020-04-13 09:58:58 - Finished searching PCI for SMBus Controller
+2020-04-13 09:58:58 - Failed to retrieve SPD info. Enumerating PCI bus...
+2020-04-13 09:58:58 - Scanning PCI for devices:
+2020-04-13 09:58:58 -  VID:8086 DID:5914 Bus:00 Dev:00 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:08 [Intel Unknown]
+2020-04-13 09:58:58 -  VID:8086 DID:5917 Bus:00 Dev:02 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2020-04-13 09:58:58 -  VID:8086 DID:1903 Bus:00 Dev:04 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:08 [Intel Unknown]
+2020-04-13 09:58:58 -  VID:8086 DID:9D2F Bus:00 Dev:14 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:58 -  VID:8086 DID:9D31 Bus:00 Dev:14 Fun:02 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:58 -  VID:8086 DID:9D60 Bus:00 Dev:15 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:58 -  VID:8086 DID:9D61 Bus:00 Dev:15 Fun:01 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:58 -  VID:8086 DID:9D3A Bus:00 Dev:16 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:58 -  VID:8086 DID:9D03 Bus:00 Dev:17 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:58 -  VID:8086 DID:9D10 Bus:00 Dev:1C Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:F1 [Intel Unknown]
+2020-04-13 09:58:58 -  VID:8086 DID:9D15 Bus:00 Dev:1C Fun:05 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:F1 [Intel Unknown]
+2020-04-13 09:58:58 -  VID:8086 DID:9D27 Bus:00 Dev:1E Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:58 -  VID:8086 DID:9D29 Bus:00 Dev:1E Fun:02 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:58 -  VID:8086 DID:9D4E Bus:00 Dev:1F Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:58 -  VID:8086 DID:9D21 Bus:00 Dev:1F Fun:02 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:58 -  VID:8086 DID:9D71 Bus:00 Dev:1F Fun:03 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:58 -  VID:8086 DID:9D23 Bus:00 Dev:1F Fun:04 IO Add:F040 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Sunrise Point-LP]
+2020-04-13 09:58:58 -  VID:10EC DID:B822 Bus:02 Dev:00 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:00 [Unknown Unknown]
+2020-04-13 09:58:58 - Finished searching PCI for SMBus Controller
+2020-04-13 09:58:58 - Getting SMBIOS Memory Device info...
+2020-04-13 09:58:58 - Found 4 Memory Devices
+2020-04-13 09:58:58 - DEBUG: Get SMB mem device Struct 0
+2020-04-13 09:58:58 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=40, iTotalLen=6F)
+2020-04-13 09:58:58 - [Slot 0] TotalWidth: 64, DataWidth: 64, Size: 8192, FormFactor: 13, DeviceSet: 0, MemoryType: 26, Speed: 2667, Attributes: 1, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 2400, MinimumVoltage: 1200, MaximumVoltage: 1200, ConfiguredVoltage: 1200
+2020-04-13 09:58:58 - [Slot 0] DeviceLocator: ChannelA-DIMM0, BankLocator: BANK 0, Manufacturer: Micron, S/N: 00000000, AssetTag: 9876543210, PartNumber: 8ATF51264HZ-2G1B1   
+2020-04-13 09:58:58 - DEBUG: Get SMB mem device Struct 1
+2020-04-13 09:58:58 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=40, iTotalLen=4A)
+2020-04-13 09:58:58 - [Slot 1] TotalWidth: 0, DataWidth: 0, Size: 0, FormFactor: 2, DeviceSet: 0, MemoryType: 2, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2020-04-13 09:58:58 - [Slot 1] DeviceLocator: ChannelA-DIMM1, BankLocator: BANK 1, Manufacturer: , S/N: , AssetTag: , PartNumber: 
+2020-04-13 09:58:58 - DEBUG: Get SMB mem device Struct 2
+2020-04-13 09:58:58 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=40, iTotalLen=4A)
+2020-04-13 09:58:58 - [Slot 2] TotalWidth: 0, DataWidth: 0, Size: 0, FormFactor: 2, DeviceSet: 0, MemoryType: 2, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2020-04-13 09:58:58 - [Slot 2] DeviceLocator: ChannelB-DIMM0, BankLocator: BANK 2, Manufacturer: , S/N: , AssetTag: , PartNumber: 
+2020-04-13 09:58:58 - DEBUG: Get SMB mem device Struct 3
+2020-04-13 09:58:58 - DEBUG: Get SMB mem device Struct Get strings (FormattedLen=40, iTotalLen=4A)
+2020-04-13 09:58:58 - [Slot 3] TotalWidth: 0, DataWidth: 0, Size: 0, FormFactor: 2, DeviceSet: 0, MemoryType: 2, Speed: 0, Attributes: 0, ExtendedSize: 0, ConfiguredMemoryClockSpeed: 0, MinimumVoltage: 0, MaximumVoltage: 0, ConfiguredVoltage: 0
+2020-04-13 09:58:58 - [Slot 3] DeviceLocator: ChannelB-DIMM1, BankLocator: BANK 3, Manufacturer: , S/N: , AssetTag: , PartNumber: 
+2020-04-13 09:58:58 - Getting memory controller info
+2020-04-13 09:58:58 - find_mem_controller - Could not find controller, enumerating PCI bus...
+2020-04-13 09:58:58 - Scanning PCI for devices:
+2020-04-13 09:58:58 -  VID:8086 DID:5914 Bus:00 Dev:00 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:08 [Intel Unknown]
+2020-04-13 09:58:58 -  VID:8086 DID:5917 Bus:00 Dev:02 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:07 [Intel Unknown]
+2020-04-13 09:58:58 -  VID:8086 DID:1903 Bus:00 Dev:04 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:08 [Intel Unknown]
+2020-04-13 09:58:58 -  VID:8086 DID:9D2F Bus:00 Dev:14 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:59 -  VID:8086 DID:9D31 Bus:00 Dev:14 Fun:02 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:59 -  VID:8086 DID:9D60 Bus:00 Dev:15 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:59 -  VID:8086 DID:9D61 Bus:00 Dev:15 Fun:01 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:59 -  VID:8086 DID:9D3A Bus:00 Dev:16 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:59 -  VID:8086 DID:9D03 Bus:00 Dev:17 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:59 -  VID:8086 DID:9D10 Bus:00 Dev:1C Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:F1 [Intel Unknown]
+2020-04-13 09:58:59 -  VID:8086 DID:9D15 Bus:00 Dev:1C Fun:05 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:F1 [Intel Unknown]
+2020-04-13 09:58:59 -  VID:8086 DID:9D27 Bus:00 Dev:1E Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:59 -  VID:8086 DID:9D29 Bus:00 Dev:1E Fun:02 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:59 -  VID:8086 DID:9D4E Bus:00 Dev:1F Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:59 -  VID:8086 DID:9D21 Bus:00 Dev:1F Fun:02 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:59 -  VID:8086 DID:9D71 Bus:00 Dev:1F Fun:03 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Unknown]
+2020-04-13 09:58:59 -  VID:8086 DID:9D23 Bus:00 Dev:1F Fun:04 IO Add:F040 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:21 [Intel Sunrise Point-LP]
+2020-04-13 09:58:59 -  VID:10EC DID:B822 Bus:02 Dev:00 Fun:00 IO Add:0000 IO (2) Add:0000 MMIO Add:0 PCI Add:{00:00:00:0000} Rev:00 [Unknown Unknown]
+2020-04-13 09:58:59 - Finished searching PCI for SMBus Controller
+2020-04-13 09:58:59 - Successfully located the PI MpService protocol.
+2020-04-13 09:58:59 - BSP is Proc 0
+2020-04-13 09:58:59 - This platform has 8 logical processors of which 8 are enabled.
+2020-04-13 09:58:59 -  ProcID   Enabled   Type   Status   Pkg   Core  Thread  Hyperthread?
+2020-04-13 09:58:59 - --------  --------  ----  -------- -----  ----  ------  ------------
+2020-04-13 09:58:59 - 00000000      Y      BSP  00000007     0     0      0      N
+2020-04-13 09:58:59 - 00000001      Y       AP  00000006     0     0      1      Y
+2020-04-13 09:58:59 - 00000002      Y       AP  00000006     0     1      0      N
+2020-04-13 09:58:59 - 00000003      Y       AP  00000006     0     1      1      Y
+2020-04-13 09:58:59 - 00000004      Y       AP  00000006     0     2      0      N
+2020-04-13 09:58:59 - 00000005      Y       AP  00000006     0     2      1      Y
+2020-04-13 09:58:59 - 00000006      Y       AP  00000006     0     3      0      N
+2020-04-13 09:58:59 - 00000007      Y       AP  00000006     0     3      1      Y
+2020-04-13 09:58:59 - Number of hyperthreads detected: 4 
+2020-04-13 09:58:59 - Disabling all hyperthreads
+2020-04-13 09:58:59 - Disabling hyperthread processor 1
+2020-04-13 09:58:59 - Disabling hyperthread processor 3
+2020-04-13 09:58:59 - Disabling hyperthread processor 5
+2020-04-13 09:58:59 - Disabling hyperthread processor 7
+2020-04-13 09:58:59 - This platform has 8 logical processors of which 8 are enabled.
+2020-04-13 09:58:59 - Testing MP support
+2020-04-13 09:58:59 - MPSupportTestMPServices - AP dispatch test
+2020-04-13 09:58:59 - MPSupportTestMPServices - Starting AP#2
+2020-04-13 09:58:59 - MPSupportTestMPServices - Starting AP#4
+2020-04-13 09:58:59 - MPSupportTestMPServices - Starting AP#6
+2020-04-13 09:58:59 - MPSupportTestMPServices - Waiting for AP's to complete execution
+2020-04-13 09:59:00 - MPSupportTestMPServices - CPU #2 finished execution
+2020-04-13 09:59:00 - MPSupportTestMPServices - CPU #4 finished execution
+2020-04-13 09:59:00 - MPSupportTestMPServices - CPU #6 finished execution
+2020-04-13 09:59:00 - MPSupportTestMPServices - AP dispatch test complete
+2020-04-13 09:59:00 - MP test passed. Setting default CPU mode to PARALLEL
+2020-04-13 09:59:00 - Applying configurations
+2020-04-13 09:59:00 - [CONFIG] This platform has 8 logical processors of which 4 are enabled.
+2020-04-13 09:59:00 - Console size = 80 x 25
+2020-04-13 09:59:01 - Screen resolution is too low (800 x 600). Setting screen size to the minimum 1024 x 768
+2020-04-13 09:59:01 - New screen size = 1024 x 768
+2020-04-13 09:59:01 - Screen size = 1024 x 768
+2020-04-13 09:59:01 - Char width=8 height=19
+2020-04-13 09:59:01 - Loading images
+2020-04-13 09:59:11 - *** TEST SESSION - 2020-04-13 09:59:11 ***
+2020-04-13 09:59:11 - CPU selection mode = 1
+2020-04-13 09:59:11 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88330000 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 09:59:11 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 09:59:11 - Starting pass #1 (of 4)
+2020-04-13 09:59:11 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88340000 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 09:59:11 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 09:59:11 - Running test #0 (Test 0 [Address test, walking ones, 1 CPU])
+2020-04-13 09:59:11 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2020-04-13 09:59:11 - MtSupportRunAllTests - Start time: 160 ms
+2020-04-13 09:59:11 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 09:59:11 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 09:59:11 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 09:59:11 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 09:59:11 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 09:59:11 - All memory ranges successfully locked
+2020-04-13 09:59:11 - Cleanup - Releasing all memory ranges...
+2020-04-13 09:59:11 - MtSupportRunAllTests - Test execution time: 0.337 (Test 0 cumulative error count: 0)
+2020-04-13 09:59:11 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88330000 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 09:59:11 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 09:59:11 - Running test #1 (Test 1 [Address test, own address, 1 CPU])
+2020-04-13 09:59:11 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2020-04-13 09:59:11 - MtSupportRunAllTests - Start time: 639 ms
+2020-04-13 09:59:12 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 09:59:12 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 09:59:12 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 09:59:12 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 09:59:12 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 09:59:12 - All memory ranges successfully locked
+2020-04-13 09:59:14 - Cleanup - Releasing all memory ranges...
+2020-04-13 09:59:14 - MtSupportRunAllTests - Test execution time: 2.028 (Test 1 cumulative error count: 0)
+2020-04-13 09:59:14 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88320000 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 09:59:14 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 09:59:14 - Running test #2 (Test 2 [Address test, own address])
+2020-04-13 09:59:14 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2020-04-13 09:59:14 - MtSupportRunAllTests - Start time: 2811 ms
+2020-04-13 09:59:14 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 09:59:14 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 09:59:14 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 09:59:14 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 09:59:14 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 09:59:14 - All memory ranges successfully locked
+2020-04-13 09:59:16 - Cleanup - Releasing all memory ranges...
+2020-04-13 09:59:16 - MtSupportRunAllTests - Test execution time: 1.972 (Test 2 cumulative error count: 0)
+2020-04-13 09:59:16 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88300000 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 09:59:16 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 09:59:16 - Running test #3 (Test 3 [Moving inversions, ones & zeroes])
+2020-04-13 09:59:16 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2020-04-13 09:59:16 - MtSupportRunAllTests - Start time: 4934 ms
+2020-04-13 09:59:16 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 09:59:16 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 09:59:16 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 09:59:16 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 09:59:16 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 09:59:16 - All memory ranges successfully locked
+2020-04-13 09:59:28 - Cleanup - Releasing all memory ranges...
+2020-04-13 09:59:28 - MtSupportRunAllTests - Test execution time: 12.225 (Test 3 cumulative error count: 0)
+2020-04-13 09:59:28 - GetIA32ArchitecturalTemp - MSR(0x19C) =         882A0000 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 09:59:28 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 09:59:28 - Running test #4 (Test 4 [Moving inversions, 8-bit pattern])
+2020-04-13 09:59:28 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2020-04-13 09:59:28 - MtSupportRunAllTests - Start time: 17312 ms
+2020-04-13 09:59:28 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 09:59:28 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 09:59:28 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 09:59:28 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 09:59:28 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 09:59:28 - All memory ranges successfully locked
+2020-04-13 10:00:26 - Cleanup - Releasing all memory ranges...
+2020-04-13 10:00:26 - MtSupportRunAllTests - Test execution time: 57.106 (Test 4 cumulative error count: 0)
+2020-04-13 10:00:26 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88260C00 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 10:00:26 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 10:00:26 - Running test #5 (Test 5 [Moving inversions, random pattern])
+2020-04-13 10:00:26 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2020-04-13 10:00:26 - MtSupportRunAllTests - Start time: 74569 ms
+2020-04-13 10:00:26 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 10:00:26 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 10:00:26 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 10:00:26 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 10:00:26 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 10:00:26 - All memory ranges successfully locked
+2020-04-13 10:01:26 - Cleanup - Releasing all memory ranges...
+2020-04-13 10:01:26 - MtSupportRunAllTests - Test execution time: 59.485 (Test 5 cumulative error count: 0)
+2020-04-13 10:01:26 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88240C00 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 10:01:26 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 10:01:26 - Running test #6 (Test 6 [Block move, 64-byte blocks])
+2020-04-13 10:01:26 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2020-04-13 10:01:26 - MtSupportRunAllTests - Start time: 134201 ms
+2020-04-13 10:01:26 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 10:01:26 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 10:01:27 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 10:01:27 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 10:01:27 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 10:01:27 - All memory ranges successfully locked
+2020-04-13 10:02:03 - Cleanup - Releasing all memory ranges...
+2020-04-13 10:02:03 - MtSupportRunAllTests - Test execution time: 36.278 (Test 6 cumulative error count: 0)
+2020-04-13 10:02:03 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88230C00 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 10:02:03 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 10:02:03 - Running test #7 (Test 7 [Moving inversions, 32-bit pattern])
+2020-04-13 10:02:03 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2020-04-13 10:02:03 - MtSupportRunAllTests - Start time: 170627 ms
+2020-04-13 10:02:03 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 10:02:03 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 10:02:03 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 10:02:03 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 10:02:03 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 10:02:03 - All memory ranges successfully locked
+2020-04-13 10:05:53 - Cleanup - Releasing all memory ranges...
+2020-04-13 10:05:53 - MtSupportRunAllTests - Test execution time: 227.320 (Test 7 cumulative error count: 0)
+2020-04-13 10:05:53 - GetIA32ArchitecturalTemp - MSR(0x19C) =         881F0C00 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 10:05:53 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 10:05:53 - Running test #8 (Test 8 [Random number sequence])
+2020-04-13 10:05:53 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2020-04-13 10:05:53 - MtSupportRunAllTests - Start time: 398092 ms
+2020-04-13 10:05:53 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 10:05:53 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 10:05:53 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 10:05:53 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 10:05:53 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 10:05:53 - All memory ranges successfully locked
+2020-04-13 10:06:27 - Cleanup - Releasing all memory ranges...
+2020-04-13 10:06:27 - MtSupportRunAllTests - Test execution time: 33.120 (Test 8 cumulative error count: 0)
+2020-04-13 10:06:27 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88200C00 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 10:06:27 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 10:06:27 - Running test #9 (Test 9 [Modulo 20, ones & zeros])
+2020-04-13 10:06:27 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2020-04-13 10:06:27 - MtSupportRunAllTests - Start time: 431378 ms
+2020-04-13 10:06:27 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 10:06:27 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 10:06:27 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 10:06:27 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 10:06:27 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 10:06:27 - All memory ranges successfully locked
+2020-04-13 10:08:59 - Cleanup - Releasing all memory ranges...
+2020-04-13 10:08:59 - MtSupportRunAllTests - Test execution time: 150.216 (Test 9 cumulative error count: 0)
+2020-04-13 10:08:59 - GetIA32ArchitecturalTemp - MSR(0x19C) =         881F0C00 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 10:08:59 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 10:08:59 - Running test #10 (Test 10 [Bit fade test, 2 patterns, 1 CPU])
+2020-04-13 10:08:59 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2020-04-13 10:08:59 - MtSupportRunAllTests - Start time: 581744 ms
+2020-04-13 10:08:59 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 10:08:59 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 10:08:59 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 10:08:59 - Start bit fade test (0x0 - 0x25F000000)
+2020-04-13 10:08:59 - Locking all memory ranges first...
+2020-04-13 10:08:59 - Memory range locked: 0x0 - 0x58000 (8158148KB of available memory left)
+2020-04-13 10:08:59 - Memory range locked: 0x59000 - 0x9E000 (8157872KB of available memory left)
+2020-04-13 10:08:59 - Memory range locked: 0x100000 - 0x842BB000 (5993412KB of available memory left)
+2020-04-13 10:08:59 - Memory range locked: 0x842FB000 - 0x92E00000 (5752752KB of available memory left)
+2020-04-13 10:08:59 - Memory range locked: 0x942AB000 - 0x942BA000 (5752692KB of available memory left)
+2020-04-13 10:08:59 - Memory range locked: 0x99467000 - 0x99644000 (5750784KB of available memory left)
+2020-04-13 10:08:59 - Reducing memory range: 0x100000000 - 0x25F000000 ==> 0x100000000 - 0x25EF00000
+2020-04-13 10:08:59 - Memory range locked: 0x100000000 - 0x25EF00000 (1024KB of available memory left)
+2020-04-13 10:08:59 - All memory ranges successfully locked
+2020-04-13 10:08:59 - Starting Stage 0, Pattern=00000000
+2020-04-13 10:09:00 - Finished Stage 0, Pattern=00000000
+2020-04-13 10:09:31 - Slept for 29 seconds
+2020-04-13 10:10:01 - Slept for 59 seconds
+2020-04-13 10:10:31 - Slept for 89 seconds
+2020-04-13 10:11:01 - Slept for 119 seconds
+2020-04-13 10:11:32 - Slept for 149 seconds
+2020-04-13 10:12:02 - Slept for 179 seconds
+2020-04-13 10:12:32 - Slept for 209 seconds
+2020-04-13 10:13:02 - Slept for 239 seconds
+2020-04-13 10:13:33 - Slept for 269 seconds
+2020-04-13 10:14:03 - Slept for 299 seconds
+2020-04-13 10:14:03 - Starting Stage 1, Pattern=00000000
+2020-04-13 10:14:05 - Finished Stage 1, Pattern=00000000
+2020-04-13 10:14:05 - Starting Stage 0, Pattern=FFFFFFFF
+2020-04-13 10:14:06 - Finished Stage 0, Pattern=FFFFFFFF
+2020-04-13 10:14:37 - Slept for 29 seconds
+2020-04-13 10:15:07 - Slept for 59 seconds
+2020-04-13 10:15:37 - Slept for 89 seconds
+2020-04-13 10:16:07 - Slept for 119 seconds
+2020-04-13 10:16:38 - Slept for 149 seconds
+2020-04-13 10:17:08 - Slept for 179 seconds
+2020-04-13 10:17:38 - Slept for 209 seconds
+2020-04-13 10:18:08 - Slept for 239 seconds
+2020-04-13 10:18:39 - Slept for 269 seconds
+2020-04-13 10:19:09 - Slept for 299 seconds
+2020-04-13 10:19:09 - Starting Stage 1, Pattern=FFFFFFFF
+2020-04-13 10:19:11 - Finished Stage 1, Pattern=FFFFFFFF
+2020-04-13 10:19:11 - Cleanup - Unlocking all memory ranges...
+2020-04-13 10:19:11 - MtSupportRunAllTests - Test execution time: 605.939 (Test 10 cumulative error count: 0)
+2020-04-13 10:19:11 - GetIA32ArchitecturalTemp - MSR(0x19C) =         882A0800 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 10:19:11 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 10:19:11 - Running test #13 (Test 13 [Hammer test])
+2020-04-13 10:19:11 - MtSupportRunAllTests - Setting random seed to 0x50415353
+2020-04-13 10:19:11 - MtSupportRunAllTests - Start time: 1187835 ms
+2020-04-13 10:19:11 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 10:19:11 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 10:19:11 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 10:19:11 - Start double-sided hammer test (0x0 - 0x25F000000, Step size: 0x1000000)
+2020-04-13 10:19:11 - Using random pattern
+2020-04-13 10:19:11 - Locking all memory ranges first...
+2020-04-13 10:19:11 - Memory range locked: 0x0 - 0x58000 (8158148KB of available memory left)
+2020-04-13 10:19:11 - Memory range locked: 0x59000 - 0x9E000 (8157872KB of available memory left)
+2020-04-13 10:19:11 - Memory range locked: 0x100000 - 0x842BB000 (5993412KB of available memory left)
+2020-04-13 10:19:11 - Memory range locked: 0x842FB000 - 0x92E00000 (5752752KB of available memory left)
+2020-04-13 10:19:11 - Memory range locked: 0x942AB000 - 0x942BA000 (5752692KB of available memory left)
+2020-04-13 10:19:11 - Memory range locked: 0x99467000 - 0x99644000 (5750784KB of available memory left)
+2020-04-13 10:19:11 - Reducing memory range: 0x100000000 - 0x25F000000 ==> 0x100000000 - 0x25EF00000
+2020-04-13 10:19:11 - Memory range locked: 0x100000000 - 0x25EF00000 (1024KB of available memory left)
+2020-04-13 10:19:11 - All memory ranges successfully locked
+2020-04-13 10:19:16 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x100000 - 0x20100000]
+2020-04-13 10:19:26 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x20100000 - 0x40100000]
+2020-04-13 10:19:37 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x40100000 - 0x60100000]
+2020-04-13 10:19:47 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x60100000 - 0x80100000]
+2020-04-13 10:20:18 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x100000000 - 0x120000000]
+2020-04-13 10:20:28 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x120000000 - 0x140000000]
+2020-04-13 10:20:39 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x140000000 - 0x160000000]
+2020-04-13 10:20:49 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x160000000 - 0x180000000]
+2020-04-13 10:20:59 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x180000000 - 0x1A0000000]
+2020-04-13 10:21:10 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x1A0000000 - 0x1C0000000]
+2020-04-13 10:21:20 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x1C0000000 - 0x1E0000000]
+2020-04-13 10:21:31 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x1E0000000 - 0x200000000]
+2020-04-13 10:21:41 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x200000000 - 0x220000000]
+2020-04-13 10:21:51 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x220000000 - 0x240000000]
+2020-04-13 10:22:02 - RunHammerTest - Running hammer test on 3 CPUs (165MB each) [0x240000000 - 0x25EF00000]
+2020-04-13 10:22:08 - Cleanup - Unlocking all memory ranges...
+2020-04-13 10:22:08 - MtSupportRunAllTests - Test execution time: 174.527 (Test 13 cumulative error count: 0)
+2020-04-13 10:22:08 - Finished pass #1 (of 4) (Cumulative error count: 0)
+2020-04-13 10:22:08 - Starting pass #2 (of 4)
+2020-04-13 10:22:08 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88260800 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 10:22:08 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 10:22:08 - Running test #0 (Test 0 [Address test, walking ones, 1 CPU])
+2020-04-13 10:22:08 - MtSupportRunAllTests - Setting random seed to 0xE197D410
+2020-04-13 10:22:08 - MtSupportRunAllTests - Start time: 1362541 ms
+2020-04-13 10:22:08 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 10:22:08 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 10:22:08 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 10:22:08 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 10:22:08 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 10:22:08 - All memory ranges successfully locked
+2020-04-13 10:22:08 - Cleanup - Releasing all memory ranges...
+2020-04-13 10:22:08 - MtSupportRunAllTests - Test execution time: 0.331 (Test 0 cumulative error count: 0)
+2020-04-13 10:22:08 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88250800 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 10:22:08 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 10:22:08 - Running test #1 (Test 1 [Address test, own address, 1 CPU])
+2020-04-13 10:22:08 - MtSupportRunAllTests - Setting random seed to 0x15742831
+2020-04-13 10:22:08 - MtSupportRunAllTests - Start time: 1363021 ms
+2020-04-13 10:22:08 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 10:22:08 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 10:22:08 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 10:22:08 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 10:22:08 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 10:22:08 - All memory ranges successfully locked
+2020-04-13 10:22:10 - Cleanup - Releasing all memory ranges...
+2020-04-13 10:22:10 - MtSupportRunAllTests - Test execution time: 2.023 (Test 1 cumulative error count: 0)
+2020-04-13 10:22:10 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88250800 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 10:22:10 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 10:22:10 - Running test #2 (Test 2 [Address test, own address])
+2020-04-13 10:22:10 - MtSupportRunAllTests - Setting random seed to 0x00789D01
+2020-04-13 10:22:10 - MtSupportRunAllTests - Start time: 1365189 ms
+2020-04-13 10:22:10 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 10:22:10 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 10:22:10 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 10:22:10 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 10:22:10 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 10:22:10 - All memory ranges successfully locked
+2020-04-13 10:22:12 - Cleanup - Releasing all memory ranges...
+2020-04-13 10:22:12 - MtSupportRunAllTests - Test execution time: 1.967 (Test 2 cumulative error count: 0)
+2020-04-13 10:22:12 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88230800 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 10:22:12 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 10:22:12 - Running test #3 (Test 3 [Moving inversions, ones & zeroes])
+2020-04-13 10:22:12 - MtSupportRunAllTests - Setting random seed to 0xE5AC4707
+2020-04-13 10:22:12 - MtSupportRunAllTests - Start time: 1367303 ms
+2020-04-13 10:22:12 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 10:22:12 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 10:22:12 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 10:22:13 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 10:22:13 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 10:22:13 - All memory ranges successfully locked
+2020-04-13 10:22:44 - Cleanup - Releasing all memory ranges...
+2020-04-13 10:22:44 - MtSupportRunAllTests - Test execution time: 31.072 (Test 3 cumulative error count: 0)
+2020-04-13 10:22:44 - GetIA32ArchitecturalTemp - MSR(0x19C) =         881E0C00 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 10:22:44 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 10:22:44 - Running test #4 (Test 4 [Moving inversions, 8-bit pattern])
+2020-04-13 10:22:44 - MtSupportRunAllTests - Setting random seed to 0x1E9F410B
+2020-04-13 10:22:44 - MtSupportRunAllTests - Start time: 1398527 ms
+2020-04-13 10:22:44 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 10:22:44 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 10:22:44 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 10:22:44 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 10:22:44 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 10:22:44 - All memory ranges successfully locked
+2020-04-13 10:24:59 - Cleanup - Releasing all memory ranges...
+2020-04-13 10:24:59 - MtSupportRunAllTests - Test execution time: 133.299 (Test 4 cumulative error count: 0)
+2020-04-13 10:24:59 - GetIA32ArchitecturalTemp - MSR(0x19C) =         881E0C00 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 10:24:59 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 10:24:59 - Running test #5 (Test 5 [Moving inversions, random pattern])
+2020-04-13 10:24:59 - MtSupportRunAllTests - Setting random seed to 0xA332F9CB
+2020-04-13 10:24:59 - MtSupportRunAllTests - Start time: 1531989 ms
+2020-04-13 10:24:59 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 10:24:59 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 10:24:59 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 10:24:59 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 10:24:59 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 10:24:59 - All memory ranges successfully locked
+2020-04-13 10:27:59 - Cleanup - Releasing all memory ranges...
+2020-04-13 10:27:59 - MtSupportRunAllTests - Test execution time: 178.355 (Test 5 cumulative error count: 0)
+2020-04-13 10:27:59 - GetIA32ArchitecturalTemp - MSR(0x19C) =         881D0C00 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 10:27:59 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 10:27:59 - Running test #6 (Test 6 [Block move, 64-byte blocks])
+2020-04-13 10:27:59 - MtSupportRunAllTests - Setting random seed to 0x3A798EBC
+2020-04-13 10:27:59 - MtSupportRunAllTests - Start time: 1710490 ms
+2020-04-13 10:27:59 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 10:27:59 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 10:27:59 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 10:27:59 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 10:27:59 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 10:27:59 - All memory ranges successfully locked
+2020-04-13 10:29:45 - Cleanup - Releasing all memory ranges...
+2020-04-13 10:29:45 - MtSupportRunAllTests - Test execution time: 104.869 (Test 6 cumulative error count: 0)
+2020-04-13 10:29:45 - GetIA32ArchitecturalTemp - MSR(0x19C) =         881E0C00 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 10:29:45 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 10:29:45 - Running test #7 (Test 7 [Moving inversions, 32-bit pattern])
+2020-04-13 10:29:45 - MtSupportRunAllTests - Setting random seed to 0xB2CAFE59
+2020-04-13 10:29:45 - MtSupportRunAllTests - Start time: 1815503 ms
+2020-04-13 10:29:45 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 10:29:45 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 10:29:45 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 10:29:45 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 10:29:45 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 10:29:45 - All memory ranges successfully locked
+2020-04-13 10:38:44 - Cleanup - Releasing all memory ranges...
+2020-04-13 10:38:44 - MtSupportRunAllTests - Test execution time: 532.878 (Test 7 cumulative error count: 0)
+2020-04-13 10:38:44 - GetIA32ArchitecturalTemp - MSR(0x19C) =         881B0808 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 10:38:44 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 10:38:44 - Running test #8 (Test 8 [Random number sequence])
+2020-04-13 10:38:44 - MtSupportRunAllTests - Setting random seed to 0x6D289B73
+2020-04-13 10:38:44 - MtSupportRunAllTests - Start time: 2348540 ms
+2020-04-13 10:38:44 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 10:38:44 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 10:38:44 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 10:38:44 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 10:38:44 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 10:38:44 - All memory ranges successfully locked
+2020-04-13 10:40:23 - Cleanup - Releasing all memory ranges...
+2020-04-13 10:40:23 - MtSupportRunAllTests - Test execution time: 97.692 (Test 8 cumulative error count: 0)
+2020-04-13 10:40:23 - GetIA32ArchitecturalTemp - MSR(0x19C) =         881D0C08 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 10:40:23 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 10:40:23 - Running test #9 (Test 9 [Modulo 20, ones & zeros])
+2020-04-13 10:40:23 - MtSupportRunAllTests - Setting random seed to 0xDD25DF46
+2020-04-13 10:40:23 - MtSupportRunAllTests - Start time: 2446391 ms
+2020-04-13 10:40:23 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 10:40:23 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 10:40:23 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 10:40:23 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 10:40:23 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 10:40:23 - All memory ranges successfully locked
+2020-04-13 10:47:57 - Cleanup - Releasing all memory ranges...
+2020-04-13 10:47:57 - MtSupportRunAllTests - Test execution time: 449.499 (Test 9 cumulative error count: 0)
+2020-04-13 10:47:57 - GetIA32ArchitecturalTemp - MSR(0x19C) =         881C0808 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 10:47:57 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 10:47:57 - Running test #10 (Test 10 [Bit fade test, 2 patterns, 1 CPU])
+2020-04-13 10:47:57 - MtSupportRunAllTests - Setting random seed to 0x481FB62A
+2020-04-13 10:47:57 - MtSupportRunAllTests - Start time: 2896046 ms
+2020-04-13 10:47:57 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 10:47:57 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 10:47:57 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 10:47:57 - Start bit fade test (0x0 - 0x25F000000)
+2020-04-13 10:47:57 - Locking all memory ranges first...
+2020-04-13 10:47:57 - Memory range locked: 0x0 - 0x58000 (8158148KB of available memory left)
+2020-04-13 10:47:57 - Memory range locked: 0x59000 - 0x9E000 (8157872KB of available memory left)
+2020-04-13 10:47:57 - Memory range locked: 0x100000 - 0x842BB000 (5993412KB of available memory left)
+2020-04-13 10:47:57 - Memory range locked: 0x842FB000 - 0x92E00000 (5752752KB of available memory left)
+2020-04-13 10:47:57 - Memory range locked: 0x942AB000 - 0x942BA000 (5752692KB of available memory left)
+2020-04-13 10:47:57 - Memory range locked: 0x99467000 - 0x99644000 (5750784KB of available memory left)
+2020-04-13 10:47:57 - Reducing memory range: 0x100000000 - 0x25F000000 ==> 0x100000000 - 0x25EF00000
+2020-04-13 10:47:57 - Memory range locked: 0x100000000 - 0x25EF00000 (1024KB of available memory left)
+2020-04-13 10:47:57 - All memory ranges successfully locked
+2020-04-13 10:47:57 - Starting Stage 0, Pattern=00000000
+2020-04-13 10:47:59 - Finished Stage 0, Pattern=00000000
+2020-04-13 10:48:29 - Slept for 29 seconds
+2020-04-13 10:48:59 - Slept for 59 seconds
+2020-04-13 10:49:29 - Slept for 89 seconds
+2020-04-13 10:50:00 - Slept for 119 seconds
+2020-04-13 10:50:30 - Slept for 149 seconds
+2020-04-13 10:51:00 - Slept for 179 seconds
+2020-04-13 10:51:31 - Slept for 209 seconds
+2020-04-13 10:52:01 - Slept for 239 seconds
+2020-04-13 10:52:31 - Slept for 269 seconds
+2020-04-13 10:53:01 - Slept for 299 seconds
+2020-04-13 10:53:02 - Starting Stage 1, Pattern=00000000
+2020-04-13 10:53:03 - Finished Stage 1, Pattern=00000000
+2020-04-13 10:53:03 - Starting Stage 0, Pattern=FFFFFFFF
+2020-04-13 10:53:05 - Finished Stage 0, Pattern=FFFFFFFF
+2020-04-13 10:53:35 - Slept for 29 seconds
+2020-04-13 10:54:05 - Slept for 59 seconds
+2020-04-13 10:54:35 - Slept for 89 seconds
+2020-04-13 10:55:06 - Slept for 119 seconds
+2020-04-13 10:55:36 - Slept for 149 seconds
+2020-04-13 10:56:06 - Slept for 179 seconds
+2020-04-13 10:56:37 - Slept for 209 seconds
+2020-04-13 10:57:07 - Slept for 239 seconds
+2020-04-13 10:57:37 - Slept for 269 seconds
+2020-04-13 10:58:07 - Slept for 299 seconds
+2020-04-13 10:58:08 - Starting Stage 1, Pattern=FFFFFFFF
+2020-04-13 10:58:09 - Finished Stage 1, Pattern=FFFFFFFF
+2020-04-13 10:58:09 - Cleanup - Unlocking all memory ranges...
+2020-04-13 10:58:09 - MtSupportRunAllTests - Test execution time: 605.842 (Test 10 cumulative error count: 0)
+2020-04-13 10:58:09 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88280808 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 10:58:09 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 10:58:09 - Running test #13 (Test 13 [Hammer test])
+2020-04-13 10:58:09 - MtSupportRunAllTests - Setting random seed to 0xE76F1F1F
+2020-04-13 10:58:09 - MtSupportRunAllTests - Start time: 3502041 ms
+2020-04-13 10:58:10 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 10:58:10 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 10:58:10 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 10:58:10 - Start double-sided hammer test (0x0 - 0x25F000000, Step size: 0x1000000)
+2020-04-13 10:58:10 - Using random pattern
+2020-04-13 10:58:10 - Locking all memory ranges first...
+2020-04-13 10:58:10 - Memory range locked: 0x0 - 0x58000 (8158148KB of available memory left)
+2020-04-13 10:58:10 - Memory range locked: 0x59000 - 0x9E000 (8157872KB of available memory left)
+2020-04-13 10:58:10 - Memory range locked: 0x100000 - 0x842BB000 (5993412KB of available memory left)
+2020-04-13 10:58:10 - Memory range locked: 0x842FB000 - 0x92E00000 (5752752KB of available memory left)
+2020-04-13 10:58:10 - Memory range locked: 0x942AB000 - 0x942BA000 (5752692KB of available memory left)
+2020-04-13 10:58:10 - Memory range locked: 0x99467000 - 0x99644000 (5750784KB of available memory left)
+2020-04-13 10:58:10 - Reducing memory range: 0x100000000 - 0x25F000000 ==> 0x100000000 - 0x25EF00000
+2020-04-13 10:58:10 - Memory range locked: 0x100000000 - 0x25EF00000 (1024KB of available memory left)
+2020-04-13 10:58:10 - All memory ranges successfully locked
+2020-04-13 10:58:14 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x100000 - 0x20100000]
+2020-04-13 10:58:26 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x20100000 - 0x40100000]
+2020-04-13 10:58:39 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x40100000 - 0x60100000]
+2020-04-13 10:58:51 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x60100000 - 0x80100000]
+2020-04-13 10:59:25 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x100000000 - 0x120000000]
+2020-04-13 10:59:37 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x120000000 - 0x140000000]
+2020-04-13 10:59:49 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x140000000 - 0x160000000]
+2020-04-13 11:00:01 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x160000000 - 0x180000000]
+2020-04-13 11:00:13 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x180000000 - 0x1A0000000]
+2020-04-13 11:00:25 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x1A0000000 - 0x1C0000000]
+2020-04-13 11:00:37 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x1C0000000 - 0x1E0000000]
+2020-04-13 11:00:49 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x1E0000000 - 0x200000000]
+2020-04-13 11:01:01 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x200000000 - 0x220000000]
+2020-04-13 11:01:13 - RunHammerTest - Running hammer test on 4 CPUs (128MB each) [0x220000000 - 0x240000000]
+2020-04-13 11:01:25 - RunHammerTest - Running hammer test on 3 CPUs (165MB each) [0x240000000 - 0x25EF00000]
+2020-04-13 11:01:33 - Cleanup - Unlocking all memory ranges...
+2020-04-13 11:01:33 - MtSupportRunAllTests - Test execution time: 201.220 (Test 13 cumulative error count: 0)
+2020-04-13 11:01:33 - Finished pass #2 (of 4) (Cumulative error count: 0)
+2020-04-13 11:01:33 - Starting pass #3 (of 4)
+2020-04-13 11:01:33 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88240808 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 11:01:33 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 11:01:33 - Running test #0 (Test 0 [Address test, walking ones, 1 CPU])
+2020-04-13 11:01:33 - MtSupportRunAllTests - Setting random seed to 0x32832126
+2020-04-13 11:01:33 - MtSupportRunAllTests - Start time: 3703450 ms
+2020-04-13 11:01:33 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 11:01:33 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 11:01:33 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 11:01:33 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 11:01:33 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 11:01:33 - All memory ranges successfully locked
+2020-04-13 11:01:33 - Cleanup - Releasing all memory ranges...
+2020-04-13 11:01:33 - MtSupportRunAllTests - Test execution time: 0.328 (Test 0 cumulative error count: 0)
+2020-04-13 11:01:33 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88240808 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 11:01:33 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 11:01:33 - Running test #1 (Test 1 [Address test, own address, 1 CPU])
+2020-04-13 11:01:33 - MtSupportRunAllTests - Setting random seed to 0x66F49545
+2020-04-13 11:01:33 - MtSupportRunAllTests - Start time: 3703934 ms
+2020-04-13 11:01:34 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 11:01:34 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 11:01:34 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 11:01:34 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 11:01:34 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 11:01:34 - All memory ranges successfully locked
+2020-04-13 11:01:36 - Cleanup - Releasing all memory ranges...
+2020-04-13 11:01:36 - MtSupportRunAllTests - Test execution time: 2.023 (Test 1 cumulative error count: 0)
+2020-04-13 11:01:36 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88230808 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 11:01:36 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 11:01:36 - Running test #2 (Test 2 [Address test, own address])
+2020-04-13 11:01:36 - MtSupportRunAllTests - Setting random seed to 0x53E74679
+2020-04-13 11:01:36 - MtSupportRunAllTests - Start time: 3706120 ms
+2020-04-13 11:01:36 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 11:01:36 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 11:01:36 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 11:01:36 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 11:01:36 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 11:01:36 - All memory ranges successfully locked
+2020-04-13 11:01:38 - Cleanup - Releasing all memory ranges...
+2020-04-13 11:01:38 - MtSupportRunAllTests - Test execution time: 1.969 (Test 2 cumulative error count: 0)
+2020-04-13 11:01:38 - GetIA32ArchitecturalTemp - MSR(0x19C) =         88220808 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 11:01:38 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 11:01:38 - Running test #3 (Test 3 [Moving inversions, ones & zeroes])
+2020-04-13 11:01:38 - MtSupportRunAllTests - Setting random seed to 0x395980C7
+2020-04-13 11:01:38 - MtSupportRunAllTests - Start time: 3708236 ms
+2020-04-13 11:01:38 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 11:01:38 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 11:01:38 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 11:01:38 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 11:01:38 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 11:01:38 - All memory ranges successfully locked
+2020-04-13 11:02:09 - Cleanup - Releasing all memory ranges...
+2020-04-13 11:02:09 - MtSupportRunAllTests - Test execution time: 31.076 (Test 3 cumulative error count: 0)
+2020-04-13 11:02:09 - GetIA32ArchitecturalTemp - MSR(0x19C) =         881D0C08 (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 11:02:09 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 11:02:09 - Running test #4 (Test 4 [Moving inversions, 8-bit pattern])
+2020-04-13 11:02:09 - MtSupportRunAllTests - Setting random seed to 0x735EBECC
+2020-04-13 11:02:09 - MtSupportRunAllTests - Start time: 3739470 ms
+2020-04-13 11:02:09 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 11:02:09 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 11:02:09 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 11:02:09 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 11:02:09 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 11:02:10 - All memory ranges successfully locked
+2020-04-13 11:05:18 - Cleanup - Releasing all memory ranges...
+2020-04-13 11:05:18 - MtSupportRunAllTests - Test execution time: 186.770 (Test 4 cumulative error count: 0)
+2020-04-13 11:05:18 - GetIA32ArchitecturalTemp - MSR(0x19C) =         8836080C (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 11:05:18 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 11:05:18 - Running test #5 (Test 5 [Moving inversions, random pattern])
+2020-04-13 11:05:18 - MtSupportRunAllTests - Setting random seed to 0x9E1EBA53
+2020-04-13 11:05:18 - MtSupportRunAllTests - Start time: 3926416 ms
+2020-04-13 11:05:18 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 11:05:18 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 11:05:18 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 11:05:18 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 11:05:18 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 11:05:18 - All memory ranges successfully locked
+2020-04-13 11:13:00 - Cleanup - Releasing all memory ranges...
+2020-04-13 11:13:00 - MtSupportRunAllTests - Test execution time: 457.045 (Test 5 cumulative error count: 0)
+2020-04-13 11:13:00 - GetIA32ArchitecturalTemp - MSR(0x19C) =         8837080C (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 11:13:00 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 11:13:00 - Running test #6 (Test 6 [Block move, 64-byte blocks])
+2020-04-13 11:13:00 - MtSupportRunAllTests - Setting random seed to 0x3D9F7054
+2020-04-13 11:13:00 - MtSupportRunAllTests - Start time: 4383641 ms
+2020-04-13 11:13:00 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 11:13:00 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 11:13:00 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 11:13:00 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 11:13:00 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 11:13:00 - All memory ranges successfully locked
+2020-04-13 11:15:54 - Cleanup - Releasing all memory ranges...
+2020-04-13 11:15:54 - MtSupportRunAllTests - Test execution time: 172.092 (Test 6 cumulative error count: 0)
+2020-04-13 11:15:54 - GetIA32ArchitecturalTemp - MSR(0x19C) =         8837080C (Vendor ID: GenuineIntel 6 8E A)
+2020-04-13 11:15:54 - MapTempIntel - MSR(0x1A2) =          5640000
+2020-04-13 11:15:54 - Running test #7 (Test 7 [Moving inversions, 32-bit pattern])
+2020-04-13 11:15:54 - MtSupportRunAllTests - Setting random seed to 0x3248DF0B
+2020-04-13 11:15:54 - MtSupportRunAllTests - Start time: 4555919 ms
+2020-04-13 11:15:54 - ReadMemoryRanges - Available Pages = 2039625
+2020-04-13 11:15:54 - MtSupportRunAllTests - Enabling memory cache for test
+2020-04-13 11:15:54 - MtSupportRunAllTests - Enabling memory cache complete
+2020-04-13 11:15:54 - Start memory range test (0x0 - 0x25F000000)
+2020-04-13 11:15:54 - Pre-allocating memory ranges >=16MB first...
+2020-04-13 11:15:54 - All memory ranges successfully locked

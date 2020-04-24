@@ -1,9 +1,11 @@
-# wm-independant HotKeys
-#---
+# vim: set foldmarker={,} foldmethod=marker:
+
+# wm-independant HotKeys -{
+#-----------------------------
 
 # Terminal emulator
 super + Return
-	urxvt
+	termite
 
 # Program launcher
 super + space
@@ -12,9 +14,10 @@ super + space
 # Reload HotKeys config
 super + Escape
 	pkill -USR1 -x sxhkd
+# }
 
-# BSPWM HotKeys
-#---
+# BSPWM HotKeys -{
+#-----------------------------
 
 # quit/restart bspwm
 super + alt + {q,r}
@@ -23,3 +26,62 @@ super + alt + {q,r}
 # close/kill program
 super + {_,shift + }w
 	bspc node -{c,k}
+
+# NODE NAVIGATION -{
+#---
+alt + Tab
+	bspc node --focus next
+
+super + {h,j,k,l}
+	bspc node --focus {west,south,north,east}
+
+super + alt + {ampersand,eacute,quotedbl,apostrophe,parenleft,minus,egrave,underscore,ccedilla,agrave}
+	bspc node --to-desktop {I,II,III,IV,V,VI,VII,VIII,IX,X} --follow
+
+super + alt + {h,j,k,l}
+	bspc node --swap {west,south,north,east}
+
+super + alt + {h,j,k,l}
+	bspc node --move {-5 0,0 -5,0 5,5 0}
+
+super + alt + {t,f,c}
+	bspc node --state {tiled,floating,fullscreen}
+# -}
+
+# DESKTOP NAVIGATION -{
+#---
+
+super + {ampersand,eacute,quotedbl,apostrophe,parenleft,minus,egrave,underscore,ccedilla,agrave}
+	bspc desktop --focus {I,II,III,IV,V,VI,VII,VIII,IX,X}
+
+super + shift + {h,l}
+	bspc desktop --focus {prev,next}
+# -}
+
+# }
+
+# Special keys bindings -{
+#-----------------------------
+
+XF86MonBrightnessDown
+	xbacklight -dec 10
+
+XF86MonBrightnessUp
+	xbacklight -inc 10
+
+XF86TouchpadToggle
+	/home/alphaxi/bin/toggletouchpad
+
+XF86AudioMute
+	amixer set Master toggle
+
+XF86AudioLowerVolume
+	amixer set Master 5%-
+
+XF86AudioRaiseVolume
+	amixer set Master 5%+
+
+#XF86ScreenSaver
+
+
+# }

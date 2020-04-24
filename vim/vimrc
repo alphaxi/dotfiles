@@ -91,6 +91,9 @@ Plug 'vim-scripts/Smart-Tabs'
 
 " Plugin for LaTeX writing
 Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
+
+" Plugin for sxhkd syntax
+Plug 'baskerville/vim-sxhkdrc'
 call plug#end()
 
 " }

@@ -10,20 +10,6 @@
 # Source color profile for vim
 source "$HOME/.vim/plugged/gruvbox/gruvbox_256palette.sh"
 
-# Colors definition
-RED="$(tput setaf 1)"
-GREEN="$(tput setaf 2)"
-YELLOW="$(tput setaf 3)"
-BLUE="$(tput setaf 4)"
-MAGENTA="$(tput setaf 5)"
-CYAN="$(tput setaf 6)"
-WHITE="$(tput setaf 7)"
-GRAY="$(tput setaf 8)"
-BOLD="$(tput bold)"
-UNDERLINE="$(tput sgr 0 1)"
-INVERT="$(tput sgr 1 0)"
-NOCOLOR="$(tput sgr0)"
-
 # Bash Settings
 
 	#set -o nounset     # These two options are useful for debugging
@@ -33,6 +19,8 @@ set -o notify
 set -o noclobber
 set -o ignoreeof
 shopt -s autocd
+# enable environment variable expansion
+shopt -s direxpand
 
 #PS1='[\u@\h \W]\$ '
 
@@ -40,8 +28,11 @@ shopt -s autocd
 export EDITOR="/usr/bin/vim"
 export DOTFILES="$HOME/wrk/dot"
 export GEM_HOME="$HOME/.gem"
-export PATH="$PATH:$(ruby -e 'print Gem.user_dir')/bin:/home/alphaxi/.gem/ruby/2.6.0/bin"
+PATH="$PATH:$(ruby -e 'print Gem.user_dir')/bin:/home/alphaxi/.gem/ruby/2.6.0/bin"
+PATH="$PATH:/home/alphaxi/bin"
 export MANPAGER='less -s -M +Gg'
+
+export PATH
 
 export local_username=alphaxi
 
@@ -49,3 +40,11 @@ for i in $DOTFILES/shell/profile.d/*.*sh ; do
 	[[ -r $i ]] && . $i
 done
 
+source /usr/share/icons-in-terminal/icons_bash.sh
+
+
+PATH="/home/alphaxi/perl5/bin${PATH:+:${PATH}}"; export PATH;
+PERL5LIB="/home/alphaxi/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+PERL_LOCAL_LIB_ROOT="/home/alphaxi/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+PERL_MB_OPT="--install_base \"/home/alphaxi/perl5\""; export PERL_MB_OPT;
+PERL_MM_OPT="INSTALL_BASE=/home/alphaxi/perl5"; export PERL_MM_OPT;

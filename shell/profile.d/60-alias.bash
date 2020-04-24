@@ -15,3 +15,6 @@ alias ehk='$EDITOR $DOTFILES/config/sxhkd/sxhkdrc'
 alias sbp='source $DOTFILES/shell/bash_profile'
 # Source bash config
 alias sbc='source $DOTFILES/shell/bashrc'
+
+# Edit bspwm config
+alias ewmc='$EDITOR $DOTFILES/config/bspwm/bspwmrc'
