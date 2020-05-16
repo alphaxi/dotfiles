@@ -5,7 +5,7 @@
 
 # Terminal emulator
 super + Return
-	termite
+	alacritty
 
 # Program launcher
 super + space

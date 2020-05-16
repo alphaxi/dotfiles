@@ -1,3 +1,25 @@
 #!/bin/bash
 
+cd $(dirname $0)
+
+# Test for directories existence
+if [ ! -e /home/${USER}/.config ]
+then
+	echo "Creating .config in home directory" && mkdir /home/$USER/.config
+fi
+
+for file in `ls -1 config/`
+do
+	echo $PWD/${file}
+	ln -sfn $PWD/config/${file} /home/$USER/.config/${file}
+done
+
+[[ -e /home/${USER}/.bashrc ]] && mv /home/${USER}/.bashrc /home/${USER}/.bashrc_old
+[[ -e /home/${USER}/.bash_profile ]] && mv /home/${USER}/.bash_profile /home/${USER}/.bash_profile_old
+ln -sfn $PWD/shell/bashrc /home/${USER}/.bashrc
+ln -sfn $PWD/shell/bash_profile /home/${USER}/.bash_profile
+
+[[ -e /home/${USER}/.vimrc ]] && mv /home/${USER}/.vimrc /home/${USER}/.vimrc_old
+ln -sfn $PWD/vim/vimrc /home/${USER}/.vimrc
+ln -sfn $PWS/vim/.vim /home/${USER}/.vim
 

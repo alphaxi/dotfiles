@@ -8,7 +8,7 @@
 [[ -f /etc/bashrc ]] && . /etc/bashrc
 
 # Source color profile for vim
-source "$HOME/.vim/plugged/gruvbox/gruvbox_256palette.sh"
+#source "$HOME/.vim/plugged/gruvbox/gruvbox_256palette.sh"
 
 # Bash Settings
 
@@ -25,10 +25,10 @@ shopt -s direxpand
 #PS1='[\u@\h \W]\$ '
 
 # Variables declaration
-export EDITOR="/usr/bin/vim"
-export DOTFILES="$HOME/wrk/dot"
-export GEM_HOME="$HOME/.gem"
-PATH="$PATH:$(ruby -e 'print Gem.user_dir')/bin:/home/alphaxi/.gem/ruby/2.6.0/bin"
+export EDITOR="/usr/bin/nvim"
+export DOTFILES="/data/dot"
+#export GEM_HOME="$HOME/.gem"
+#PATH="$PATH:$(ruby -e 'print Gem.user_dir')/bin:/home/alphaxi/.gem/ruby/2.6.0/bin"
 PATH="$PATH:/home/alphaxi/bin"
 export MANPAGER='less -s -M +Gg'
 
@@ -40,11 +40,11 @@ for i in $DOTFILES/shell/profile.d/*.*sh ; do
 	[[ -r $i ]] && . $i
 done
 
-source /usr/share/icons-in-terminal/icons_bash.sh
+source /home/alphaxi/.local/share/icons-in-terminal/icons_bash.sh
 
 
-PATH="/home/alphaxi/perl5/bin${PATH:+:${PATH}}"; export PATH;
-PERL5LIB="/home/alphaxi/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
-PERL_LOCAL_LIB_ROOT="/home/alphaxi/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
-PERL_MB_OPT="--install_base \"/home/alphaxi/perl5\""; export PERL_MB_OPT;
-PERL_MM_OPT="INSTALL_BASE=/home/alphaxi/perl5"; export PERL_MM_OPT;
+#PATH="/home/alphaxi/perl5/bin${PATH:+:${PATH}}"; export PATH;
+#PERL5LIB="/home/alphaxi/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+#PERL_LOCAL_LIB_ROOT="/home/alphaxi/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+#PERL_MB_OPT="--install_base \"/home/alphaxi/perl5\""; export PERL_MB_OPT;
+#PERL_MM_OPT="INSTALL_BASE=/home/alphaxi/perl5"; export PERL_MM_OPT;
