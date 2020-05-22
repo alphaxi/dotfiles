@@ -1,0 +1,8 @@
+2020/05/18-21:59:12.695 1fc9 Reusing MANIFEST /home/alphaxi/.config/opera/IndexedDB/https_raspberry-pi.fr_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/18-21:59:12.695 1fc9 Recovering log #16
+2020/05/18-21:59:12.695 1fc9 Reusing old log /home/alphaxi/.config/opera/IndexedDB/https_raspberry-pi.fr_0.indexeddb.leveldb/000016.log 
+2020/05/18-21:59:15.364 9c5 Level-0 table #20: started
+2020/05/18-21:59:15.364 9c5 Level-0 table #20: 0 bytes OK
+2020/05/18-21:59:15.866 9c5 Delete type=0 #16
+2020/05/18-21:59:15.867 9c5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/18-21:59:15.867 9c5 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

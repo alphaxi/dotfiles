@@ -1,0 +1,8 @@
+2020/05/22-11:25:23.340 9be Reusing MANIFEST /home/alphaxi/.config/opera/IndexedDB/https_linuxconfig.org_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/22-11:25:23.340 9be Recovering log #4
+2020/05/22-11:25:23.340 9be Reusing old log /home/alphaxi/.config/opera/IndexedDB/https_linuxconfig.org_0.indexeddb.leveldb/000004.log 
+2020/05/22-11:25:25.431 a87 Level-0 table #8: started
+2020/05/22-11:25:25.431 a87 Level-0 table #8: 0 bytes OK
+2020/05/22-11:25:25.431 a87 Delete type=0 #4
+2020/05/22-11:25:25.431 a87 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/22-11:25:25.431 a87 Manual compaction at level-1 from (begin) .. (end); will stop at (end)

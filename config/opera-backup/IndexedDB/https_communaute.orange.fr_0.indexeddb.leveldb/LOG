@@ -1,0 +1,5 @@
+2020/05/18-22:32:27.209 2ea3 Reusing MANIFEST /home/alphaxi/.config/opera/IndexedDB/https_communaute.orange.fr_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/18-22:33:17.469 9c5 Level-0 table #5: started
+2020/05/18-22:33:17.503 9c5 Level-0 table #5: 1835 bytes OK
+2020/05/18-22:33:17.554 9c5 Delete type=0 #3
+2020/05/18-22:33:17.554 9c5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

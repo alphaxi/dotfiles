@@ -1,0 +1,5 @@
+2020/05/22-17:12:23.201 1e4c Reusing MANIFEST /home/alphaxi/.config/opera/IndexedDB/https_www.androidcentral.com_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/22-17:12:49.959 2112 Level-0 table #5: started
+2020/05/22-17:12:49.959 2112 Level-0 table #5: 354 bytes OK
+2020/05/22-17:12:49.960 2112 Delete type=0 #3
+2020/05/22-17:12:49.960 2112 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

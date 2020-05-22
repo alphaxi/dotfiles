@@ -1,0 +1,15 @@
+2020/05/17-19:19:46.143 6106 Reusing MANIFEST /home/alphaxi/.config/opera/IndexedDB/https_projects.raspberrypi.org_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/17-19:19:46.143 6106 Recovering log #4
+2020/05/17-19:19:46.143 6106 Reusing old log /home/alphaxi/.config/opera/IndexedDB/https_projects.raspberrypi.org_0.indexeddb.leveldb/000004.log 
+2020/05/17-19:20:42.357 4601 Level-0 table #8: started
+2020/05/17-19:20:42.475 4601 Level-0 table #8: 1034 bytes OK
+2020/05/17-19:20:42.527 4601 Delete type=0 #4
+2020/05/17-19:20:42.528 4601 Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/17-19:20:42.528 4601 Manual compaction at level-1 from (begin) .. (end); will stop at '\x00\x01\x01\x02\x012\x00t\x00a\x00s\x00k\x00s\x00-\x00p\x00r\x00o\x00g\x00r\x00e\x00s\x00s\x00-\x00p\x00y\x00t\x00h\x00o\x00n\x00-\x00w\x00e\x00b\x00-\x00s\x00e\x00r\x00v\x00e\x00r\x00-\x00w\x00i\x00t\x00h\x00-\x00f\x00l\x00a\x00s\x00k\x00-\x00s\x00t\x00e\x00p\x00-\x006' @ 128 : 1
+2020/05/17-19:20:42.528 4601 Compacting 1@1 + 1@2 files
+2020/05/17-19:20:42.562 4601 Generated table #9@1: 36 keys, 987 bytes
+2020/05/17-19:20:42.562 4601 Compacted 1@1 + 1@2 files => 987 bytes
+2020/05/17-19:20:42.614 4601 compacted to: files[ 0 0 1 0 0 0 0 ]
+2020/05/17-19:20:42.614 4601 Delete type=2 #8
+2020/05/17-19:20:42.614 4601 Delete type=2 #5
+2020/05/17-19:20:42.615 4601 Manual compaction at level-1 from '\x00\x01\x01\x02\x012\x00t\x00a\x00s\x00k\x00s\x00-\x00p\x00r\x00o\x00g\x00r\x00e\x00s\x00s\x00-\x00p\x00y\x00t\x00h\x00o\x00n\x00-\x00w\x00e\x00b\x00-\x00s\x00e\x00r\x00v\x00e\x00r\x00-\x00w\x00i\x00t\x00h\x00-\x00f\x00l\x00a\x00s\x00k\x00-\x00s\x00t\x00e\x00p\x00-\x006' @ 128 : 1 .. (end); will stop at (end)

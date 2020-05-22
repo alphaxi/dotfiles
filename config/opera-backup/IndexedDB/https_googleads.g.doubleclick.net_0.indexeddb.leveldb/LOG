@@ -1,0 +1,8 @@
+2020/05/20-19:38:53.255 50d Reusing MANIFEST /home/alphaxi/.config/opera/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/MANIFEST-000001
+2020/05/20-19:38:53.256 50d Recovering log #10
+2020/05/20-19:38:53.256 50d Reusing old log /home/alphaxi/.config/opera/IndexedDB/https_googleads.g.doubleclick.net_0.indexeddb.leveldb/000010.log 
+2020/05/20-19:39:01.406 6dd Level-0 table #14: started
+2020/05/20-19:39:01.406 6dd Level-0 table #14: 0 bytes OK
+2020/05/20-19:39:02.044 6dd Delete type=0 #10
+2020/05/20-19:39:02.045 6dd Manual compaction at level-0 from (begin) .. (end); will stop at (end)
+2020/05/20-19:39:02.045 6dd Manual compaction at level-1 from (begin) .. (end); will stop at (end)
