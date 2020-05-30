@@ -1,3 +1,3 @@
 # Set backlight at max when battery is plugged
-ACTION=="add", KERNEL=="AC0", SUBSYSTEM=="power_supply", ATTR{online}=="1", KERNEL=={intel_backlight}, SUBSYSTEM=={backlight}, RUN+="/usr/bin/echo '7500' > /sys/class/backlight/intel_backlight/brightness" 
-#ATTR{brightness}+="7500"
+SUBSYSTEM=="power_supply", ATTR{online}=="0", RUN+="$DOTFILES/bin/backlight true"
+SUBSYSTEM=="power_supply", ATTR{online}=="1", RUN+="$DOTFILES/bin/backlight false"
