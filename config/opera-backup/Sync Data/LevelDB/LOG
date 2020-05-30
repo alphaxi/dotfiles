@@ -1,6 +1,0 @@
-2020/05/22-17:09:28.517 1e43 Reusing MANIFEST /home/alphaxi/.config/opera/Sync Data/LevelDB/MANIFEST-000001
-2020/05/22-17:09:28.518 1e43 Recovering log #54
-2020/05/22-17:09:28.519 1e43 Reusing old log /home/alphaxi/.config/opera/Sync Data/LevelDB/000054.log 
-2020/05/22-17:12:16.007 2286 Level-0 table #58: started
-2020/05/22-17:12:16.009 2286 Level-0 table #58: 110667 bytes OK
-2020/05/22-17:12:16.009 2286 Delete type=0 #54

@@ -1,0 +1,30 @@
+L'extension « GIMP XCF » n'a pas été chargée, car 
+Dépendance:
+	type: executable
+	emplacement: chemin
+	chaîne: gimp
+
+L'extension « PostScript Input » n'a pas été chargée, car 
+Dépendance:
+	type: executable
+	emplacement: chemin
+	chaîne: ps2pdf
+
+L'extension « EPS Input » n'a pas été chargée, car 
+Dépendance:
+	type: executable
+	emplacement: chemin
+	chaîne: ps2pdf
+
+L'extension « LaTeX (pdflatex) » n'a pas été chargée, car 
+Dépendance:
+	type: executable
+	emplacement: chemin
+	chaîne: pdflatex
+
+L'extension « XFIG Input » n'a pas été chargée, car 
+Dépendance:
+	type: executable
+	emplacement: chemin
+	chaîne: fig2dev
+

@@ -1,0 +1,5 @@
+# This rule powers down all unused PCI devices, but some devices may not be able to wake up.
+# If this is the case, simple matching of working devices shall be used.
+# More information : https://wiki.archlinux.org/index.php/Power_management#PCI_Runtime_Power_Management
+ACTION=="add", SUBSYSTEM=="pci", TEST=="power/control", ATTR{power/control}="auto"
+ACTION=="add", SUBSYSTEM=="i2c", TEST=="power/control", ATTR{power/control}="auto"

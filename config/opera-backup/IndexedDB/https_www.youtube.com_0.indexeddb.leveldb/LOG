@@ -1,5 +1,0 @@
-2020/05/21-18:40:42.462 a6b Reusing MANIFEST /home/alphaxi/.config/opera/IndexedDB/https_www.youtube.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/05/21-18:41:18.779 4ed Level-0 table #5: started
-2020/05/21-18:41:18.813 4ed Level-0 table #5: 6825 bytes OK
-2020/05/21-18:41:18.864 4ed Delete type=0 #3
-2020/05/21-18:41:18.865 4ed Manual compaction at level-0 from (begin) .. (end); will stop at (end)

@@ -1,5 +1,0 @@
-2020/05/18-22:32:26.841 3233 Reusing MANIFEST /home/alphaxi/.config/opera/IndexedDB/https_lpcdn.lpsnmedia.net_0.indexeddb.leveldb/MANIFEST-000001
-2020/05/18-22:33:17.555 9c5 Level-0 table #5: started
-2020/05/18-22:33:17.589 9c5 Level-0 table #5: 4230 bytes OK
-2020/05/18-22:33:17.641 9c5 Delete type=0 #3
-2020/05/18-22:33:17.642 9c5 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

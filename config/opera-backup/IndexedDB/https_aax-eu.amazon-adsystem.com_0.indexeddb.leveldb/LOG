@@ -1,5 +1,0 @@
-2020/05/22-19:00:38.612 31a4 Reusing MANIFEST /home/alphaxi/.config/opera/IndexedDB/https_aax-eu.amazon-adsystem.com_0.indexeddb.leveldb/MANIFEST-000001
-2020/05/22-19:01:16.115 2112 Level-0 table #5: started
-2020/05/22-19:01:16.115 2112 Level-0 table #5: 362 bytes OK
-2020/05/22-19:01:16.116 2112 Delete type=0 #3
-2020/05/22-19:01:16.116 2112 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

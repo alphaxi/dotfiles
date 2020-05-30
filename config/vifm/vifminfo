@@ -30,6 +30,30 @@ l2
 r2
 
 # Left window history (oldest to newest):
+d/home/alphaxi
+	dox
+1
+d/home/alphaxi/dox
+	..
+0
+d/home/alphaxi
+	..
+0
+d/home
+	..
+0
+d/
+	mnt
+9
+d/mnt
+	..
+0
+d/
+	dev
+3
+d/dev
+	stderr
+14
 d
 
 # Right window history (oldest to newest):

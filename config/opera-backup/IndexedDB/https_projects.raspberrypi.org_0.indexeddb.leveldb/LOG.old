@@ -1,5 +1,0 @@
-2020/05/17-17:24:31.135 4069 Reusing MANIFEST /home/alphaxi/.config/opera/IndexedDB/https_projects.raspberrypi.org_0.indexeddb.leveldb/MANIFEST-000001
-2020/05/17-17:38:15.494 4601 Level-0 table #5: started
-2020/05/17-17:38:15.533 4601 Level-0 table #5: 1562 bytes OK
-2020/05/17-17:38:15.595 4601 Delete type=0 #3
-2020/05/17-17:38:15.595 4601 Manual compaction at level-0 from (begin) .. (end); will stop at (end)

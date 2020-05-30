@@ -40,7 +40,7 @@ for i in $DOTFILES/shell/profile.d/*.*sh ; do
 	[[ -r $i ]] && . $i
 done
 
-source /home/alphaxi/.local/share/icons-in-terminal/icons_bash.sh
+#source /home/alphaxi/.local/share/icons-in-terminal/icons_bash.sh
 
 
 #PATH="/home/alphaxi/perl5/bin${PATH:+:${PATH}}"; export PATH;
