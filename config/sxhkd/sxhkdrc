@@ -54,6 +54,9 @@ super + alt + {t,f,c}
 super + {ampersand,eacute,quotedbl,apostrophe,parenleft,minus,egrave,underscore,ccedilla,agrave}
 	bspc desktop --focus {I,II,III,IV,V,VI,VII,VIII,IX,X}
 
+super + {1,2,3,4,5,6,7,8,9,0}
+	bspc desktop --focus {I,II,III,IV,V,VI,VII,VIII,IX,X}
+
 super + shift + {h,l}
 	bspc desktop --focus {prev,next}
 # -}

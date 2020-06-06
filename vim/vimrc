@@ -31,6 +31,7 @@ let g:gruvbox_italic=1
 let g:gruvbox_contrast_dark='hard'
 colorscheme gruvbox
 set background=dark
+set termguicolors
 
 set cursorline
 
@@ -41,6 +42,9 @@ set preserveindent
 set softtabstop=0
 set shiftwidth=4
 set tabstop=4
+
+" StatusLine
+set statusline^=%{exists('*CapsLockStatusLine')?CapsLockStatusLine():''}
 " }
 
 " MAPPING {
@@ -83,8 +87,33 @@ call plug#begin('/home/alphaxi/wrk/dot/vim/.vim/plugged')
 " Plugin for colorscheme
 Plug 'morhetz/gruvbox'
 
+" Plugin for completion
+if has('nvim')
+    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+else
+    Plug 'Shougo/deoplete.nvim'
+    Plug 'roxma/nvim-yarp'
+    Plug 'roxma/vim-hug-neovim-rpc'
+endif
+let g:deoplete#enable_at_startup = 1
+
 " Plugin for beancount files integration
 Plug 'nathangrigg/vim-beancount'
+augroup filetype_beancount
+    autocmd!
+    " Mapping for AlignCommoodity function
+    autocmd FileType beancount inoremap . .<C-\><C-O>:AlignCommodity<CR>
+    autocmd FileType beancount nnoremap <buffer> <leader>< :AlignCommodity<CR>
+    autocmd FileType beancount vnoremap <buffer> <leader>< :AlignCommodity<CR>
+    " Mapping for bean-doctor context to display
+    autocmd FileType beancount nnoremap <buffer> <leader>c :GetContext<CR> 
+    " Mapping for auto-CapsLock when entering numbers
+    autocmd FileType beancount inoremap JK <ESC>
+    autocmd InsertLeave * set iminsert=0
+    autocmd FileType beancount inoremap € EUR<ESC>
+augroup END 
+let g:beancount_root = '/data/dot/accounting/main.bean'
+
 
 " Plugin for tab indentation and space alignment
 Plug 'vim-scripts/Smart-Tabs'
@@ -94,6 +123,10 @@ Plug 'xuhdev/vim-latex-live-preview', { 'for': 'tex' }
 
 " Plugin for sxhkd syntax
 Plug 'baskerville/vim-sxhkdrc'
+
+" Plugin for calendar app
+Plug 'itchyny/calendar.vim'
+
 call plug#end()
 
 " }

@@ -2,8 +2,9 @@
 
 sxhkd &
 polybar -r alphabar &
-feh --bg-scale $HOME/pix/wall/wallhaven-kw332q.jpg
+~/.fehbg &
 udiskie &
+setxkbmap -option caps:shiftlock &
 
 bspc monitor -d I II III IV V VI VII VIII IX X
 
